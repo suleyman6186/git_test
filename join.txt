@@ -1,0 +1,5 @@
+SELECT e.name,e.surname,a.when_accepted_date, r.id
+ FROM `accepted_entrances` a 
+join rfids r on a.rfids_id = r.id
+join employees e on r.employees_id = e.id
+where when_accepted_date="2014-06-27"

@@ -1,0 +1,4 @@
+repository:depo
+commit:teslim etmek
+branch:dal
+merge:birleştirmek
