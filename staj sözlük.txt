@@ -2,3 +2,8 @@ repository:depo
 commit:teslim etmek
 branch:dal
 merge:birleştirmek
+scaffolding:yapı, yapı iskelesi
+invoke:çağırmak
+genre:tür,çeşit
+instantiate:somutlaştırmak
+approach :yaklaşım
