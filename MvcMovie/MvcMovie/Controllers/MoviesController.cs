@@ -6,13 +6,13 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MvcMovie.Models;
-using MvcMovie.MovieDBContext__MvcMovie;
+
 
 namespace MvcMovie.Controllers
 { 
     public class MoviesController : Controller
     {
-        private Models_ db = new Models_();
+        private MovieDBContext db = new MovieDBContext();
 
         //
         // GET: /Movies/
@@ -99,7 +99,18 @@ namespace MvcMovie.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+        public ActionResult SearchIndex(string searchString)
+        {
+            var movies = from m in db.Movies
+                         select m;
 
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title.Contains(searchString));
+            }
+
+            return View(movies);
+        }
         protected override void Dispose(bool disposing)
         {
             db.Dispose();
