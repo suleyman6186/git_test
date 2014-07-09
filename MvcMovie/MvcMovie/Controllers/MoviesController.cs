@@ -22,17 +22,28 @@ namespace MvcMovie.Controllers
             return View(db.Movies.ToList());
         }
 
-        //
-        // GET: /Movies/Details/5
+      
+        //// GET: /Movies/Details/5
 
-        public ViewResult Details(int id)
+        //public ViewResult Details(int id)
+        //{
+        //    Movie movie = db.Movies.Find(id);
+        //    return View(movie);
+        //}
+
+        //// GET: /Movies/Create
+
+
+        public ActionResult Details(int id = 0)
         {
-            Movie movie = db.Movies.Find(id);
+              Movie movie = db.Movies.Find(id);
+                if (movie == null)
+        {
+            return HttpNotFound();
+        }
             return View(movie);
         }
 
-        //
-        // GET: /Movies/Create
 
         public ActionResult Create()
         {
@@ -57,13 +68,18 @@ namespace MvcMovie.Controllers
         
         //
         // GET: /Movies/Edit/5
- 
-        public ActionResult Edit(int id)
+        
+        public ActionResult Edit(int id=0)
         {
             Movie movie = db.Movies.Find(id);
+            if (movie == null)
+            {
+                return HttpNotFound();
+            }
             return View(movie);
         }
 
+        
         //
         // POST: /Movies/Edit/5
 
@@ -82,11 +98,16 @@ namespace MvcMovie.Controllers
         //
         // GET: /Movies/Delete/5
  
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int id=0)
         {
             Movie movie = db.Movies.Find(id);
+            if (movie == null)
+            {
+                return HttpNotFound();
+            }
             return View(movie);
         }
+
 
         //
         // POST: /Movies/Delete/5
