@@ -36,11 +36,11 @@ namespace MvcMovie
 
         protected void Application_Start()
         {
+            Database.SetInitializer<MovieDBContext>(new MovieInitializer());
             AreaRegistration.RegisterAllAreas();
 
             // Use LocalDB for Entity Framework by default
-          //  Database.DefaultConnectionFactory = new SqlConnectionFactory(@"Data Source=(localdb)\v11.0; Integrated Security=True; MultipleActiveResultSets=True");
-            Database.SetInitializer<MovieDBContext>(new MovieInitializer());
+          // Database.DefaultConnectionFactory = new SqlConnectionFactory(@"Data Source=(localdb)\v11.0; Integrated Security=True; MultipleActiveResultSets=True");
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
         }

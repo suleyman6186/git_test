@@ -99,8 +99,33 @@ namespace MvcMovie.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-        public ActionResult SearchIndex(string searchString)
+        //public ActionResult SearchIndex(string searchString)
+        //{
+        //    var movies = from m in db.Movies
+        //                 select m;
+
+        //    if (!String.IsNullOrEmpty(searchString))
+        //    {
+        //     movies = movies.Where(s => s.Title.Contains(searchString));
+        //    }
+
+        //    return View(movies);
+        //}
+
+        public ActionResult SearchIndex(string movieGenre, string searchString)
         {
+            var GenreLst = new List<string>();
+            //GenreLst.Add("Süleyman");
+            //GenreLst.Add("Ömer");
+            //GenreLst.Add("Kazım");
+
+            var GenreQry = from d in db.Movies               //Süleyman, ömer , kazımı aktif yaparsaki bu pasif olmalıdır..
+                           orderby d.Genre                   //Süleyman, ömer , kazımı aktif yaparsaki bu pasif olmalıdır..
+                           select d.Genre;                   //Süleyman, ömer , kazımı aktif yaparsaki bu pasif olmalıdır..
+         //   var GenreQry = GenreLst;
+            GenreLst.AddRange(GenreQry.Distinct());          //Süleyman, ömer , kazımı aktif yaparsaki bu pasif olmalıdır..
+            ViewBag.movieGenre = new SelectList(GenreLst);   //weivbag ile, listedeki veriyi wiev a taşıyor. Adı üstünde, çanta..
+
             var movies = from m in db.Movies
                          select m;
 
@@ -109,8 +134,16 @@ namespace MvcMovie.Controllers
                 movies = movies.Where(s => s.Title.Contains(searchString));
             }
 
-            return View(movies);
+            if (string.IsNullOrEmpty(movieGenre))
+                return View(movies);
+            else
+            {
+                return View(movies.Where(x => x.Genre == movieGenre));
+            }
+
         }
+
+
         protected override void Dispose(bool disposing)
         {
             db.Dispose();
