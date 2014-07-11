@@ -1,0 +1,9 @@
+D:\git_test\git_test\DisliHesabi\DisliHesabi\bin\Debug\DisliHesabi.exe.config
+D:\git_test\git_test\DisliHesabi\DisliHesabi\bin\Debug\DisliHesabi.exe
+D:\git_test\git_test\DisliHesabi\DisliHesabi\bin\Debug\DisliHesabi.pdb
+D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.Form1.resources
+D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.Properties.Resources.resources
+D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.csproj.GenerateResource.Cache
+D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.exe
+D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.pdb
+D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.csprojResolveAssemblyReference.cache
