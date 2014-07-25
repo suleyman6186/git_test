@@ -51,9 +51,9 @@ namespace DisliHesabi
             double helis_acisi_mod = Convert.ToDouble(textBoxModHelisAcisi.Text);                               // MOD Helis Açısı
             double helis_yonu_mod = Convert.ToDouble(textBoxHelisYonu.Text);                                    // MOD Helis Yönü
 
-            double profil_kay_mik_pinyon_mod = Convert.ToDouble(textBoxDpProfilKaydırmaPinyon.Text);            // MOD Profil Kaydırma Miktarı Pinyon
-            double profil_kay_mik_cark_mod = Convert.ToDouble(textBoxDpProfilKaydırmaCark.Text);                // MOD Profil Kaydırma Miktarı Çark
-            double alin_modulu_mod = Convert.ToDouble(textBoxModAlinModulu.Text);                                    // MOD alın modulu
+            double profil_kay_mik_pinyon_mod = Convert.ToDouble(textBoxModProfilKaydırmaPinyon.Text);       // MOD Profil Kaydırma Miktarı Pinyon
+            double profil_kay_mik_cark_mod = Convert.ToDouble(textBoxModProfilKaydırmaCark.Text);           // MOD Profil Kaydırma Miktarı Çark
+            double alin_modulu_mod = Convert.ToDouble(textBoxModAlinModulu.Text);                               // MOD alın modulu
             /*hesaplanmadı*/
             double sayi19 = Convert.ToDouble(textBoxModDonmeDairesi.Text);                                      // MOD  Dönme dai. bas. açısı 
 
@@ -77,13 +77,17 @@ namespace DisliHesabi
             ev_as_mod = Math.Round(ev_as_mod, 4);
             textBoxModEvAs.Text = Convert.ToString(ev_as_mod);                                                  // MOD ev(as) hesabı yapıldı
 
-            double dp_hesap_mod = 2 * System.Math.Tan(kavrama_acisi_radyan_mod) * (profil_kay_mik_cark_mod + profil_kay_mik_pinyon_mod) / (pinyon_dis_sayisi_mod + cark_dis_sayisi_mod) + ev_an_mod;
+
+
+            double dp_hesap_mod = 2 * System.Math.Tan(kavrama_acisi_radyan_mod) * ((profil_kay_mik_cark_mod + profil_kay_mik_pinyon_mod) / (pinyon_dis_sayisi_mod + cark_dis_sayisi_mod)) + ev_an_mod;
             dp_hesap_mod = Math.Round(dp_hesap_mod, 4);
             textBoxModHesap.Text = Convert.ToString(dp_hesap_mod);                                              // MOD hesap işlemi yapıldı
 
+
+
             double donme_dai_bas_acisi_radyan_mod = (sayi19 * System.Math.PI / 180);                            // Dönme dai. bas.  açısının radyan değeri
 
-            double y_degeri_mod = (pinyon_dis_sayisi_mod + cark_dis_sayisi_mod) / 2 * ((System.Math.Cos(kavrama_acisi_radyan_mod) / System.Math.Cos(donme_dai_bas_acisi_radyan_mod)) - 1); // y değeri'nin hesabı
+            double y_degeri_mod = (pinyon_dis_sayisi_mod + cark_dis_sayisi_mod) / 2 * (System.Math.Cos(kavrama_acisi_radyan_mod) / System.Math.Cos(donme_dai_bas_acisi_radyan_mod) - 1); // y değeri'nin hesabı
             y_degeri_mod = Math.Round(y_degeri_mod, 4);
             textBoxModYDegeri.Text = Convert.ToString(y_degeri_mod);
 
@@ -91,47 +95,55 @@ namespace DisliHesabi
 
             double milimeter_mod = Convert.ToDouble("25,4");                                                 // milimetre hesaplaması 	
 
-            double taksimat_dairesi_capi_pinyon_mod = alin_modulu_mod*pinyon_dis_sayisi_mod*milimeter_mod;
+            double taksimat_dairesi_capi_pinyon_mod = alin_modulu_mod*pinyon_dis_sayisi_mod;
             taksimat_dairesi_capi_pinyon_mod = Math.Round(taksimat_dairesi_capi_pinyon_mod, 3);
             labelModTaksimatPinyon.Text = Convert.ToString(taksimat_dairesi_capi_pinyon_mod);          // Taksimat Dairesi Çapı Pinyon  hesabı    
 
-            double taksimat_dairesi_capi_cark_mod = alin_modulu_mod*cark_dis_sayisi_mod*milimeter_mod;
+            double taksimat_dairesi_capi_cark_mod = alin_modulu_mod*cark_dis_sayisi_mod;
             taksimat_dairesi_capi_cark_mod = Math.Round(taksimat_dairesi_capi_cark_mod, 3);
             labelModTaksimatCark.Text = Convert.ToString(taksimat_dairesi_capi_cark_mod);               // Taksimat Dairesi Çapı Çark Hesabı                      
 
 
             double k_mod = Convert.ToDouble("1,25");                                                
 
-            double dis_ustu_capi_pinyon_mod = pinyon_dis_sayisi_mod / System.Math.Cos(helis_acisi_radyan_mod) + 2 * (profil_kay_mik_pinyon_mod + 1) / (mod);
+
+
+            double dis_ustu_capi_pinyon_mod = mod * (pinyon_dis_sayisi_mod / System.Math.Cos(helis_acisi_radyan_mod) + 2 * (1 + profil_kay_mik_pinyon_mod));
             dis_ustu_capi_pinyon_mod = Math.Round(dis_ustu_capi_pinyon_mod, 3);
             labelModDisUstuPinyon.Text = Convert.ToString(dis_ustu_capi_pinyon_mod);
 
-            double dis_ustu_capi_cark_mod = cark_dis_sayisi_mod / System.Math.Cos(helis_acisi_radyan_mod) + (2 * (1 + profil_kay_mik_cark_mod) / (mod));
+            double dis_ustu_capi_cark_mod =mod * (cark_dis_sayisi_mod / System.Math.Cos(helis_acisi_radyan_mod) + 2 * (1 + profil_kay_mik_cark_mod));
             dis_ustu_capi_cark_mod = Math.Round(dis_ustu_capi_cark_mod, 3);
             labelModDisUstuCark.Text = Convert.ToString(dis_ustu_capi_cark_mod);
 
-            double dis_dibi_capi_pinyon_mod = pinyon_dis_sayisi_mod / System.Math.Cos(helis_acisi_radyan_mod) + (-2 * (k_mod - profil_kay_mik_pinyon_mod) / (mod));
+
+
+            double dis_dibi_capi_pinyon_mod = mod*(pinyon_dis_sayisi_mod / System.Math.Cos(helis_acisi_radyan_mod) -2 * (k_mod - profil_kay_mik_pinyon_mod));
             dis_dibi_capi_pinyon_mod = Math.Round(dis_dibi_capi_pinyon_mod, 3);
             labelModDisDibiPinyon.Text = Convert.ToString(dis_dibi_capi_pinyon_mod);
 
-            double dis_dibi_capi_cark_mod = cark_dis_sayisi_mod / System.Math.Cos(helis_acisi_radyan_mod) + (-2 * (k_mod - profil_kay_mik_cark_mod) / (mod));
+            double dis_dibi_capi_cark_mod = mod*(cark_dis_sayisi_mod / System.Math.Cos(helis_acisi_radyan_mod) -2 * (k_mod - profil_kay_mik_cark_mod));
             dis_dibi_capi_cark_mod = Math.Round(dis_dibi_capi_cark_mod, 3);
             labelModDisDibiCark.Text = Convert.ToString(dis_dibi_capi_cark_mod);
 
-            double kontrol_dis_sayisi_pinyon_mod = pinyon_dis_sayisi_mod * ev_as_mod / ev_an_mod * kavrama_acisi_mod / 180;
+
+
+            double kontrol_dis_sayisi_pinyon_mod =( pinyon_dis_sayisi_mod * (ev_as_mod / ev_an_mod * kavrama_acisi_mod / 180));
             kontrol_dis_sayisi_pinyon_mod = Math.Round(kontrol_dis_sayisi_pinyon_mod, 0);
             labelModKontrolDisPinyon.Text = Convert.ToString(kontrol_dis_sayisi_pinyon_mod);             // Kontrol Pinyon Dis Sayısı
 
-            double kontrol_dis_sayisi_cark_mod = cark_dis_sayisi_mod * ev_as_mod / ev_an_mod * kavrama_acisi_mod / 180;
+            double kontrol_dis_sayisi_cark_mod = (cark_dis_sayisi_mod * (ev_as_mod / ev_an_mod * kavrama_acisi_mod / 180));
             kontrol_dis_sayisi_cark_mod = Math.Round(kontrol_dis_sayisi_cark_mod, 0);
             labelModKontrolDisCark.Text = Convert.ToString(kontrol_dis_sayisi_cark_mod);                 // Kontrol Çark Dis Sayısı
 
+
+
             double yarim_mod = Convert.ToDouble("0,5");                                               // Yarım hesabı
-            double kontrol_mikr_pinyon_mod = (1 / pinyon_dis_sayisi_mod * System.Math.Cos(kavrama_acisi_radyan_mod) * ((kontrol_dis_sayisi_pinyon_mod - yarim_mod) * System.Math.PI + pinyon_dis_sayisi_mod * ev_as_mod + 2 * profil_kay_mik_pinyon_mod * System.Math.Sin(kavrama_acisi_radyan_mod)));
+            double kontrol_mikr_pinyon_mod = mod * System.Math.Cos(kavrama_acisi_radyan_mod) * ((kontrol_dis_sayisi_pinyon_mod - yarim_mod) * System.Math.PI + pinyon_dis_sayisi_mod * ev_as_mod + 2 * profil_kay_mik_pinyon_mod * System.Math.Sin(kavrama_acisi_radyan_mod));
             kontrol_mikr_pinyon_mod = Math.Round(kontrol_mikr_pinyon_mod, 3);
             labelModKontrolMikrPinyon.Text = Convert.ToString(kontrol_mikr_pinyon_mod);                    // labeKontrolMikrPinyon Hesabı
 
-            double kontrol_mikr_cark_mod = (1 / mod * System.Math.Cos(kavrama_acisi_radyan_mod) * ((kontrol_dis_sayisi_cark_mod - yarim_mod) * System.Math.PI + cark_dis_sayisi_mod * ev_as_mod + 2 * profil_kay_mik_cark_mod * System.Math.Sin(kavrama_acisi_radyan_mod)));
+            double kontrol_mikr_cark_mod = mod * System.Math.Cos(kavrama_acisi_radyan_mod) * ((kontrol_dis_sayisi_cark_mod - yarim_mod) * System.Math.PI + cark_dis_sayisi_mod * ev_as_mod + 2 * profil_kay_mik_cark_mod * System.Math.Sin(kavrama_acisi_radyan_mod));
             kontrol_mikr_cark_mod = Math.Round(kontrol_mikr_cark_mod, 3);
             labelModKontrolMikrCark.Text = Convert.ToString(kontrol_mikr_cark_mod);                        // labelKontrolMikrCark Hesabı
 
@@ -139,7 +151,7 @@ namespace DisliHesabi
             eksenler_arasi_mesafe_mod = Math.Round(eksenler_arasi_mesafe_mod, 3);
             labelModEksenlerArasiMesafe.Text = Convert.ToString(eksenler_arasi_mesafe_mod);                  //Eksenler Arası Mesafe hesaplandı
 
-            double profil_kay_ile_eks_arasi_mesafe_mod = (eksenler_arasi_mesafe_mod + mod/y_degeri_mod);
+            double profil_kay_ile_eks_arasi_mesafe_mod = eksenler_arasi_mesafe_mod + mod * y_degeri_mod;
             profil_kay_ile_eks_arasi_mesafe_mod = Math.Round(profil_kay_ile_eks_arasi_mesafe_mod, 3);
             labelModProfilKayEksMes.Text = Convert.ToString(profil_kay_ile_eks_arasi_mesafe_mod);              //Profil Kay. İle Eks. Ara. Mes hesaplandı..
         
@@ -438,6 +450,11 @@ namespace DisliHesabi
         }
 
         private void textBoxCark2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelDisUstuCark_Click(object sender, EventArgs e)
         {
 
         }
