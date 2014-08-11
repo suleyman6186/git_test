@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Microsoft.Office.Interop.Excel;
 namespace DisliHesabi
 {
    
@@ -292,12 +292,12 @@ namespace DisliHesabi
 }           
         private void BtnCikis1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Close();
         }
 
         private void BtnCikis2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Close();
         }
 
         private void BtnTemizle1_Click(object sender, EventArgs e)
@@ -362,6 +362,136 @@ namespace DisliHesabi
                 e.Handled = false;
             }
             
+        }
+
+        private void BtnExport1_Click(object sender, EventArgs e)
+        {
+            Microsoft.Office.Interop.Excel.Application xla = new Microsoft.Office.Interop.Excel.Application();
+            Workbook wb = xla.Workbooks.Add(XlSheetType.xlWorksheet);
+            Worksheet ws = (Worksheet)xla.ActiveSheet;
+
+            xla.Visible = true;
+
+            ws.Cells[1, 4] = "   Pinyon";
+            ws.Cells[1, 6] = "      Çark";
+
+
+            ws.Cells[2, 1] = " Normal Modül : ";
+            ws.Cells[3, 1] = " Diş Sayısı :";
+            ws.Cells[4, 1] = " Kavrama Açısı :";
+            ws.Cells[5, 1] = " Helis Açısı :";
+            ws.Cells[6, 1] = " Helis Yönü :";
+            ws.Cells[7, 1] = " Alın Modülü :";
+            ws.Cells[8, 1] = " Profil Kaydırma Miktarı :";
+            ws.Cells[9, 1] = " Taksimat Dairesi Çapı :";
+            ws.Cells[10, 1] = " Diş Üstü Çapı :";
+            ws.Cells[11, 1] = " Diş Dibi Çapı :";
+            ws.Cells[12, 1] = " Kontrol Diş Sayısı :";
+            ws.Cells[13, 1] = " Kontrol Mikr. Ölçüsü :";
+            ws.Cells[14, 1] = " Eksenler Arası Mesafe :";
+            ws.Cells[15, 1] = " Profil Kay. İle Eks. Ara. Mes :";
+
+
+
+            ws.Cells[2, 5] =textBoxMod.Text;
+            ws.Cells[3, 4] =textBoxModPinyonDisSayisi.Text;
+            ws.Cells[4, 5] =textBoxModKavramaAcisi.Text;
+            ws.Cells[5, 5] =textBoxModHelisAcisi.Text;
+            ws.Cells[6, 5] =textBoxModHelisYonu.Text;
+            ws.Cells[7, 5] =textBoxModAlinModulu.Text;
+            ws.Cells[8, 4] = textBoxModProfilKaydırmaPinyon.Text;
+            ws.Cells[9, 4] = labelModTaksimatPinyon.Text;
+            ws.Cells[10, 4] = labelModDisUstuPinyon.Text;
+            ws.Cells[11, 4] = labelModDisDibiPinyon.Text;
+            ws.Cells[12, 4] = labelModKontrolDisPinyon.Text;
+            ws.Cells[13, 4] = labelModKontrolMikrPinyon.Text;
+
+            ws.Cells[3, 6] = textBoxModCarkDisSayisi.Text;
+            ws.Cells[8, 6] = textBoxModProfilKaydırmaCark.Text;
+            ws.Cells[9, 6] = labelModTaksimatCark.Text;
+            ws.Cells[10, 6] = labelModDisUstuCark.Text;
+            ws.Cells[11, 6] = labelModDisDibiCark.Text;
+            ws.Cells[12, 6] = labelModKontrolDisCark.Text;
+            ws.Cells[13, 6] = labelModKontrolMikrCark.Text;
+
+
+            ws.Cells[14, 5] = labelModEksenlerArasiMesafe.Text;
+            ws.Cells[15, 5] = labelModProfilKayEksMes.Text;
+
+
+            ws.Cells[9, 7] = " mm";
+            ws.Cells[10, 7] = " mm";
+            ws.Cells[11, 7] = " mm";
+            ws.Cells[13, 7] = " mm";
+            ws.Cells[14, 7] = " mm";
+            ws.Cells[15, 7] = " mm";
+
+          
+
+        }
+
+        private void Btnimport2_Click(object sender, EventArgs e)
+        {
+
+            Microsoft.Office.Interop.Excel.Application xla = new Microsoft.Office.Interop.Excel.Application();
+            Workbook wb = xla.Workbooks.Add(XlSheetType.xlWorksheet);
+            Worksheet ws = (Worksheet)xla.ActiveSheet;
+
+
+            xla.Visible = true;
+
+            ws.Cells[1, 4] = "   Pinyon";
+            ws.Cells[1, 6] = "      Çark";
+
+
+            ws.Cells[2, 1] = " Diameter Pitch :";
+            ws.Cells[3, 1] = " Diş Sayısı :";
+            ws.Cells[4, 1] = " Kavrama Açısı :";
+            ws.Cells[5, 1] = " Helis Açısı :";
+            ws.Cells[6, 1] = " Helis Yönü :";
+            ws.Cells[7, 1] = " Profil Kaydırma Miktarı :";
+            ws.Cells[8, 1] = " Taksimat Dairesi Çapı :";
+            ws.Cells[9, 1] = " Diş Üstü Çapı :";
+            ws.Cells[10, 1] = " Diş Dibi Çapı :";
+            ws.Cells[11, 1] = " Kontrol Diş Sayısı :";
+            ws.Cells[12, 1] = " Kontrol Mikr. Ölçüsü :";
+            ws.Cells[13, 1] = " Eksenler Arası Mesafe :";
+            ws.Cells[14, 1] = " Profil Kay. İle Eks. Ara. Mes :";
+
+
+
+            ws.Cells[2, 5] = textBoxDiameter.Text;
+            ws.Cells[3, 4] = textBoxPinyon2.Text;
+            ws.Cells[4, 5] = textBoxKavrama2.Text;
+            ws.Cells[5, 5] = textBoxHelis2.Text;
+            ws.Cells[6, 5] = textBoxHelisYonu.Text;
+            ws.Cells[7, 4] = textBoxModProfilKaydırmaPinyon.Text;
+            ws.Cells[8, 4] = labelTaksimatPinyon.Text;
+            ws.Cells[9, 4] = labelDisUstuPinyon.Text;
+            ws.Cells[10, 4] = labelDisDibiPinyon.Text;
+            ws.Cells[11, 4] = labelKontrolDisPinyon.Text;
+            ws.Cells[12, 4] = labelKontrolMikrPinyon.Text;
+
+            ws.Cells[3, 6] = textBoxCark2.Text;
+            ws.Cells[7, 6] = textBoxModProfilKaydırmaCark.Text;
+            ws.Cells[8, 6] = labelTaksimatCark.Text;
+            ws.Cells[9, 6] = labelDisUstuCark.Text;
+            ws.Cells[10, 6] = labelDisDibiCark.Text;
+            ws.Cells[11, 6] = labelKontrolDisCark.Text;
+            ws.Cells[12, 6] = labelKontrolMikrCark.Text;
+
+
+            ws.Cells[13, 5] = labelEksenlerArasiMesafe.Text;
+            ws.Cells[14, 5] = labelProfilKayEksMes.Text;
+
+
+            ws.Cells[8, 7] = " mm";
+            ws.Cells[9, 7] = " mm";
+            ws.Cells[10, 7] = " mm";
+            ws.Cells[12, 7] = " mm";
+            ws.Cells[13, 7] = " mm";
+            ws.Cells[14, 7] = " mm";
+      
         }
     }
 }

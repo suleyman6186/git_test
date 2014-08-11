@@ -56,26 +56,16 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnHesapla1 = new System.Windows.Forms.Button();
             this.ModulDuzVeHeliselDislilerPanel = new System.Windows.Forms.Panel();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.label65 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBoxModAlinModulu = new System.Windows.Forms.TextBox();
-            this.label71 = new System.Windows.Forms.Label();
-            this.textBoxModHelisYonu = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBoxModProfilKaydırmaPinyon = new System.Windows.Forms.TextBox();
-            this.textBoxModProfilKaydırmaCark = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.labelModKontrolMikrCark = new System.Windows.Forms.Label();
             this.labelModKontrolDisCark = new System.Windows.Forms.Label();
             this.labelModDisDibiCark = new System.Windows.Forms.Label();
             this.labelModDisUstuCark = new System.Windows.Forms.Label();
             this.labelModTaksimatCark = new System.Windows.Forms.Label();
-            this.labelModProfilKayEksMes = new System.Windows.Forms.Label();
-            this.labelModEksenlerArasiMesafe = new System.Windows.Forms.Label();
             this.labelModKontrolMikrPinyon = new System.Windows.Forms.Label();
             this.labelModKontrolDisPinyon = new System.Windows.Forms.Label();
             this.labelModDisDibiPinyon = new System.Windows.Forms.Label();
@@ -83,13 +73,24 @@
             this.labelModTaksimatPinyon = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
+            this.textBoxModAlinModulu = new System.Windows.Forms.TextBox();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.textBoxModHelisYonu = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBoxModProfilKaydırmaPinyon = new System.Windows.Forms.TextBox();
+            this.textBoxModProfilKaydırmaCark = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.labelModProfilKayEksMes = new System.Windows.Forms.Label();
+            this.labelModEksenlerArasiMesafe = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
@@ -129,38 +130,39 @@
             this.label50 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.DpDuzVeHeliselDislilerPanel = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBoxHelisYonu = new System.Windows.Forms.TextBox();
-            this.label54 = new System.Windows.Forms.Label();
-            this.textBoxDpProfilKaydırmaPinyon = new System.Windows.Forms.TextBox();
-            this.textBoxDpProfilKaydırmaCark = new System.Windows.Forms.TextBox();
-            this.label55 = new System.Windows.Forms.Label();
             this.labelKontrolMikrCark = new System.Windows.Forms.Label();
             this.labelKontrolDisCark = new System.Windows.Forms.Label();
             this.labelDisDibiCark = new System.Windows.Forms.Label();
             this.labelDisUstuCark = new System.Windows.Forms.Label();
             this.labelTaksimatCark = new System.Windows.Forms.Label();
-            this.labelProfilKayEksMes = new System.Windows.Forms.Label();
-            this.labelEksenlerArasiMesafe = new System.Windows.Forms.Label();
             this.labelKontrolMikrPinyon = new System.Windows.Forms.Label();
             this.labelKontrolDisPinyon = new System.Windows.Forms.Label();
             this.labelDisDibiPinyon = new System.Windows.Forms.Label();
             this.labelDisUstuPinyon = new System.Windows.Forms.Label();
             this.labelTaksimatPinyon = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBoxHelisYonu = new System.Windows.Forms.TextBox();
+            this.label54 = new System.Windows.Forms.Label();
+            this.textBoxDpProfilKaydırmaPinyon = new System.Windows.Forms.TextBox();
+            this.textBoxDpProfilKaydırmaCark = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.labelProfilKayEksMes = new System.Windows.Forms.Label();
+            this.labelEksenlerArasiMesafe = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
@@ -180,11 +182,13 @@
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.ModulDuzVeHeliselDislilerPanel.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.DpDuzVeHeliselDislilerPanel.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -241,6 +245,7 @@
             this.BtnExport1.TabIndex = 8;
             this.BtnExport1.Text = "Export Et";
             this.BtnExport1.UseVisualStyleBackColor = false;
+            this.BtnExport1.Click += new System.EventHandler(this.BtnExport1_Click);
             // 
             // BtnTemizle1
             // 
@@ -480,40 +485,21 @@
             // 
             // ModulDuzVeHeliselDislilerPanel
             // 
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label73);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label72);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label65);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label5);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label4);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label3);
+            this.ModulDuzVeHeliselDislilerPanel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.panel1);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModAlinModulu);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label71);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label73);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label72);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModHelisYonu);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label1);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModProfilKaydırmaPinyon);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModProfilKaydırmaCark);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label2);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModKontrolMikrCark);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModKontrolDisCark);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModDisDibiCark);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModDisUstuCark);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModTaksimatCark);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModProfilKayEksMes);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModEksenlerArasiMesafe);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModKontrolMikrPinyon);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModKontrolDisPinyon);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModDisDibiPinyon);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModDisUstuPinyon);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModTaksimatPinyon);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label21);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label22);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label23);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label52);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label53);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label56);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label57);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label58);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label59);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label60);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label61);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label63);
@@ -533,11 +519,271 @@
             this.ModulDuzVeHeliselDislilerPanel.Size = new System.Drawing.Size(385, 498);
             this.ModulDuzVeHeliselDislilerPanel.TabIndex = 2;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Silver;
+            this.panel1.Controls.Add(this.label65);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.labelModKontrolMikrCark);
+            this.panel1.Controls.Add(this.labelModKontrolDisCark);
+            this.panel1.Controls.Add(this.labelModDisDibiCark);
+            this.panel1.Controls.Add(this.labelModDisUstuCark);
+            this.panel1.Controls.Add(this.labelModTaksimatCark);
+            this.panel1.Controls.Add(this.labelModKontrolMikrPinyon);
+            this.panel1.Controls.Add(this.labelModKontrolDisPinyon);
+            this.panel1.Controls.Add(this.labelModDisDibiPinyon);
+            this.panel1.Controls.Add(this.labelModDisUstuPinyon);
+            this.panel1.Controls.Add(this.labelModTaksimatPinyon);
+            this.panel1.Controls.Add(this.label21);
+            this.panel1.Controls.Add(this.label22);
+            this.panel1.Controls.Add(this.label53);
+            this.panel1.Controls.Add(this.label56);
+            this.panel1.Controls.Add(this.label57);
+            this.panel1.Controls.Add(this.label58);
+            this.panel1.Controls.Add(this.label59);
+            this.panel1.Location = new System.Drawing.Point(0, 229);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(385, 178);
+            this.panel1.TabIndex = 144;
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label65.Location = new System.Drawing.Point(345, 147);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(34, 17);
+            this.label65.TabIndex = 162;
+            this.label65.Text = "mm";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(345, 95);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(34, 17);
+            this.label5.TabIndex = 161;
+            this.label5.Text = "mm";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(345, 43);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(34, 17);
+            this.label4.TabIndex = 160;
+            this.label4.Text = "mm";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(345, 69);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(34, 17);
+            this.label3.TabIndex = 159;
+            this.label3.Text = "mm";
+            // 
+            // labelModKontrolMikrCark
+            // 
+            this.labelModKontrolMikrCark.AutoSize = true;
+            this.labelModKontrolMikrCark.Location = new System.Drawing.Point(273, 144);
+            this.labelModKontrolMikrCark.Name = "labelModKontrolMikrCark";
+            this.labelModKontrolMikrCark.Size = new System.Drawing.Size(17, 20);
+            this.labelModKontrolMikrCark.TabIndex = 158;
+            this.labelModKontrolMikrCark.Text = "0";
+            this.labelModKontrolMikrCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelModKontrolDisCark
+            // 
+            this.labelModKontrolDisCark.AutoSize = true;
+            this.labelModKontrolDisCark.Location = new System.Drawing.Point(273, 118);
+            this.labelModKontrolDisCark.Name = "labelModKontrolDisCark";
+            this.labelModKontrolDisCark.Size = new System.Drawing.Size(17, 20);
+            this.labelModKontrolDisCark.TabIndex = 157;
+            this.labelModKontrolDisCark.Text = "0";
+            this.labelModKontrolDisCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelModDisDibiCark
+            // 
+            this.labelModDisDibiCark.AutoSize = true;
+            this.labelModDisDibiCark.Location = new System.Drawing.Point(273, 92);
+            this.labelModDisDibiCark.Name = "labelModDisDibiCark";
+            this.labelModDisDibiCark.Size = new System.Drawing.Size(17, 20);
+            this.labelModDisDibiCark.TabIndex = 156;
+            this.labelModDisDibiCark.Text = "0";
+            this.labelModDisDibiCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelModDisUstuCark
+            // 
+            this.labelModDisUstuCark.AutoSize = true;
+            this.labelModDisUstuCark.Location = new System.Drawing.Point(273, 66);
+            this.labelModDisUstuCark.Name = "labelModDisUstuCark";
+            this.labelModDisUstuCark.Size = new System.Drawing.Size(17, 20);
+            this.labelModDisUstuCark.TabIndex = 155;
+            this.labelModDisUstuCark.Text = "0";
+            this.labelModDisUstuCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelModTaksimatCark
+            // 
+            this.labelModTaksimatCark.AutoSize = true;
+            this.labelModTaksimatCark.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelModTaksimatCark.Location = new System.Drawing.Point(273, 40);
+            this.labelModTaksimatCark.Name = "labelModTaksimatCark";
+            this.labelModTaksimatCark.Size = new System.Drawing.Size(17, 20);
+            this.labelModTaksimatCark.TabIndex = 154;
+            this.labelModTaksimatCark.Text = "0";
+            this.labelModTaksimatCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelModKontrolMikrPinyon
+            // 
+            this.labelModKontrolMikrPinyon.AutoSize = true;
+            this.labelModKontrolMikrPinyon.Location = new System.Drawing.Point(184, 144);
+            this.labelModKontrolMikrPinyon.Name = "labelModKontrolMikrPinyon";
+            this.labelModKontrolMikrPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelModKontrolMikrPinyon.TabIndex = 153;
+            this.labelModKontrolMikrPinyon.Text = "0";
+            this.labelModKontrolMikrPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelModKontrolDisPinyon
+            // 
+            this.labelModKontrolDisPinyon.AutoSize = true;
+            this.labelModKontrolDisPinyon.Location = new System.Drawing.Point(184, 118);
+            this.labelModKontrolDisPinyon.Name = "labelModKontrolDisPinyon";
+            this.labelModKontrolDisPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelModKontrolDisPinyon.TabIndex = 152;
+            this.labelModKontrolDisPinyon.Text = "0";
+            this.labelModKontrolDisPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelModDisDibiPinyon
+            // 
+            this.labelModDisDibiPinyon.AutoSize = true;
+            this.labelModDisDibiPinyon.Location = new System.Drawing.Point(184, 92);
+            this.labelModDisDibiPinyon.Name = "labelModDisDibiPinyon";
+            this.labelModDisDibiPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelModDisDibiPinyon.TabIndex = 151;
+            this.labelModDisDibiPinyon.Text = "0";
+            this.labelModDisDibiPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelModDisUstuPinyon
+            // 
+            this.labelModDisUstuPinyon.AutoSize = true;
+            this.labelModDisUstuPinyon.Location = new System.Drawing.Point(184, 66);
+            this.labelModDisUstuPinyon.Name = "labelModDisUstuPinyon";
+            this.labelModDisUstuPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelModDisUstuPinyon.TabIndex = 150;
+            this.labelModDisUstuPinyon.Text = "0";
+            this.labelModDisUstuPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelModTaksimatPinyon
+            // 
+            this.labelModTaksimatPinyon.AutoSize = true;
+            this.labelModTaksimatPinyon.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelModTaksimatPinyon.Location = new System.Drawing.Point(184, 40);
+            this.labelModTaksimatPinyon.Name = "labelModTaksimatPinyon";
+            this.labelModTaksimatPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelModTaksimatPinyon.TabIndex = 149;
+            this.labelModTaksimatPinyon.Text = "0";
+            this.labelModTaksimatPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label21.Location = new System.Drawing.Point(270, 9);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(48, 20);
+            this.label21.TabIndex = 148;
+            this.label21.Text = "Çark";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label22.Location = new System.Drawing.Point(174, 9);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(66, 20);
+            this.label22.TabIndex = 147;
+            this.label22.Text = "Pinyon";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label53.Location = new System.Drawing.Point(27, 144);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(153, 20);
+            this.label53.TabIndex = 146;
+            this.label53.Text = "Kontrol Mikr. Ölçüsü :";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label56.Location = new System.Drawing.Point(47, 118);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(133, 20);
+            this.label56.TabIndex = 145;
+            this.label56.Text = "Kontrol Diş Sayısı :";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label57.Location = new System.Drawing.Point(77, 92);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(103, 20);
+            this.label57.TabIndex = 144;
+            this.label57.Text = "Diş Dibi Çapı :";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label58.Location = new System.Drawing.Point(72, 66);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(108, 20);
+            this.label58.TabIndex = 143;
+            this.label58.Text = "Diş Üstü Çapı :";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label59.Location = new System.Drawing.Point(16, 40);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(164, 20);
+            this.label59.TabIndex = 142;
+            this.label59.Text = "Taksimat Dairesi Çapı :";
+            // 
+            // textBoxModAlinModulu
+            // 
+            this.textBoxModAlinModulu.Location = new System.Drawing.Point(225, 152);
+            this.textBoxModAlinModulu.Name = "textBoxModAlinModulu";
+            this.textBoxModAlinModulu.Size = new System.Drawing.Size(45, 25);
+            this.textBoxModAlinModulu.TabIndex = 129;
+            this.textBoxModAlinModulu.Text = "0";
+            this.textBoxModAlinModulu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label71.Location = new System.Drawing.Point(41, 155);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(112, 20);
+            this.label71.TabIndex = 134;
+            this.label71.Text = "Alın Moduülü :";
+            // 
             // label73
             // 
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label73.Location = new System.Drawing.Point(348, 457);
+            this.label73.Location = new System.Drawing.Point(345, 457);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(34, 17);
             this.label73.TabIndex = 143;
@@ -547,70 +793,11 @@
             // 
             this.label72.AutoSize = true;
             this.label72.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label72.Location = new System.Drawing.Point(348, 431);
+            this.label72.Location = new System.Drawing.Point(345, 431);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(34, 17);
             this.label72.TabIndex = 142;
             this.label72.Text = "mm";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label65.Location = new System.Drawing.Point(348, 405);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(34, 17);
-            this.label65.TabIndex = 141;
-            this.label65.Text = "mm";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(348, 353);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 17);
-            this.label5.TabIndex = 139;
-            this.label5.Text = "mm";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(348, 301);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 17);
-            this.label4.TabIndex = 138;
-            this.label4.Text = "mm";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(348, 327);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 17);
-            this.label3.TabIndex = 137;
-            this.label3.Text = "mm";
-            // 
-            // textBoxModAlinModulu
-            // 
-            this.textBoxModAlinModulu.Location = new System.Drawing.Point(225, 180);
-            this.textBoxModAlinModulu.Name = "textBoxModAlinModulu";
-            this.textBoxModAlinModulu.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModAlinModulu.TabIndex = 136;
-            this.textBoxModAlinModulu.Text = "0";
-            this.textBoxModAlinModulu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label71.Location = new System.Drawing.Point(41, 183);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(112, 20);
-            this.label71.TabIndex = 134;
-            this.label71.Text = "Alın Moduülü :";
             // 
             // textBoxModHelisYonu
             // 
@@ -625,7 +812,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(159, 156);
+            this.label1.Location = new System.Drawing.Point(159, 185);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 20);
             this.label1.TabIndex = 131;
@@ -633,19 +820,19 @@
             // 
             // textBoxModProfilKaydırmaPinyon
             // 
-            this.textBoxModProfilKaydırmaPinyon.Location = new System.Drawing.Point(225, 153);
+            this.textBoxModProfilKaydırmaPinyon.Location = new System.Drawing.Point(225, 182);
             this.textBoxModProfilKaydırmaPinyon.Name = "textBoxModProfilKaydırmaPinyon";
             this.textBoxModProfilKaydırmaPinyon.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModProfilKaydırmaPinyon.TabIndex = 129;
+            this.textBoxModProfilKaydırmaPinyon.TabIndex = 130;
             this.textBoxModProfilKaydırmaPinyon.Text = "0";
             this.textBoxModProfilKaydırmaPinyon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxModProfilKaydırmaCark
             // 
-            this.textBoxModProfilKaydırmaCark.Location = new System.Drawing.Point(333, 153);
+            this.textBoxModProfilKaydırmaCark.Location = new System.Drawing.Point(333, 182);
             this.textBoxModProfilKaydırmaCark.Name = "textBoxModProfilKaydırmaCark";
             this.textBoxModProfilKaydırmaCark.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModProfilKaydırmaCark.TabIndex = 130;
+            this.textBoxModProfilKaydırmaCark.TabIndex = 136;
             this.textBoxModProfilKaydırmaCark.Text = "0";
             this.textBoxModProfilKaydırmaCark.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -653,67 +840,16 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(276, 156);
+            this.label2.Location = new System.Drawing.Point(276, 185);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 20);
             this.label2.TabIndex = 132;
             this.label2.Text = "Çark :";
             // 
-            // labelModKontrolMikrCark
-            // 
-            this.labelModKontrolMikrCark.AutoSize = true;
-            this.labelModKontrolMikrCark.Location = new System.Drawing.Point(287, 402);
-            this.labelModKontrolMikrCark.Name = "labelModKontrolMikrCark";
-            this.labelModKontrolMikrCark.Size = new System.Drawing.Size(17, 20);
-            this.labelModKontrolMikrCark.TabIndex = 128;
-            this.labelModKontrolMikrCark.Text = "0";
-            this.labelModKontrolMikrCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelModKontrolDisCark
-            // 
-            this.labelModKontrolDisCark.AutoSize = true;
-            this.labelModKontrolDisCark.Location = new System.Drawing.Point(287, 376);
-            this.labelModKontrolDisCark.Name = "labelModKontrolDisCark";
-            this.labelModKontrolDisCark.Size = new System.Drawing.Size(17, 20);
-            this.labelModKontrolDisCark.TabIndex = 127;
-            this.labelModKontrolDisCark.Text = "0";
-            this.labelModKontrolDisCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelModDisDibiCark
-            // 
-            this.labelModDisDibiCark.AutoSize = true;
-            this.labelModDisDibiCark.Location = new System.Drawing.Point(287, 350);
-            this.labelModDisDibiCark.Name = "labelModDisDibiCark";
-            this.labelModDisDibiCark.Size = new System.Drawing.Size(17, 20);
-            this.labelModDisDibiCark.TabIndex = 126;
-            this.labelModDisDibiCark.Text = "0";
-            this.labelModDisDibiCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelModDisUstuCark
-            // 
-            this.labelModDisUstuCark.AutoSize = true;
-            this.labelModDisUstuCark.Location = new System.Drawing.Point(287, 324);
-            this.labelModDisUstuCark.Name = "labelModDisUstuCark";
-            this.labelModDisUstuCark.Size = new System.Drawing.Size(17, 20);
-            this.labelModDisUstuCark.TabIndex = 125;
-            this.labelModDisUstuCark.Text = "0";
-            this.labelModDisUstuCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelModTaksimatCark
-            // 
-            this.labelModTaksimatCark.AutoSize = true;
-            this.labelModTaksimatCark.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelModTaksimatCark.Location = new System.Drawing.Point(287, 298);
-            this.labelModTaksimatCark.Name = "labelModTaksimatCark";
-            this.labelModTaksimatCark.Size = new System.Drawing.Size(17, 20);
-            this.labelModTaksimatCark.TabIndex = 124;
-            this.labelModTaksimatCark.Text = "0";
-            this.labelModTaksimatCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // labelModProfilKayEksMes
             // 
             this.labelModProfilKayEksMes.AutoSize = true;
-            this.labelModProfilKayEksMes.Location = new System.Drawing.Point(247, 454);
+            this.labelModProfilKayEksMes.Location = new System.Drawing.Point(184, 454);
             this.labelModProfilKayEksMes.Name = "labelModProfilKayEksMes";
             this.labelModProfilKayEksMes.Size = new System.Drawing.Size(17, 20);
             this.labelModProfilKayEksMes.TabIndex = 123;
@@ -723,159 +859,38 @@
             // labelModEksenlerArasiMesafe
             // 
             this.labelModEksenlerArasiMesafe.AutoSize = true;
-            this.labelModEksenlerArasiMesafe.Location = new System.Drawing.Point(247, 428);
+            this.labelModEksenlerArasiMesafe.Location = new System.Drawing.Point(184, 428);
             this.labelModEksenlerArasiMesafe.Name = "labelModEksenlerArasiMesafe";
             this.labelModEksenlerArasiMesafe.Size = new System.Drawing.Size(17, 20);
             this.labelModEksenlerArasiMesafe.TabIndex = 122;
             this.labelModEksenlerArasiMesafe.Text = "0";
             this.labelModEksenlerArasiMesafe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelModKontrolMikrPinyon
-            // 
-            this.labelModKontrolMikrPinyon.AutoSize = true;
-            this.labelModKontrolMikrPinyon.Location = new System.Drawing.Point(206, 402);
-            this.labelModKontrolMikrPinyon.Name = "labelModKontrolMikrPinyon";
-            this.labelModKontrolMikrPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelModKontrolMikrPinyon.TabIndex = 121;
-            this.labelModKontrolMikrPinyon.Text = "0";
-            this.labelModKontrolMikrPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelModKontrolDisPinyon
-            // 
-            this.labelModKontrolDisPinyon.AutoSize = true;
-            this.labelModKontrolDisPinyon.Location = new System.Drawing.Point(206, 376);
-            this.labelModKontrolDisPinyon.Name = "labelModKontrolDisPinyon";
-            this.labelModKontrolDisPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelModKontrolDisPinyon.TabIndex = 120;
-            this.labelModKontrolDisPinyon.Text = "0";
-            this.labelModKontrolDisPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelModDisDibiPinyon
-            // 
-            this.labelModDisDibiPinyon.AutoSize = true;
-            this.labelModDisDibiPinyon.Location = new System.Drawing.Point(206, 350);
-            this.labelModDisDibiPinyon.Name = "labelModDisDibiPinyon";
-            this.labelModDisDibiPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelModDisDibiPinyon.TabIndex = 119;
-            this.labelModDisDibiPinyon.Text = "0";
-            this.labelModDisDibiPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelModDisUstuPinyon
-            // 
-            this.labelModDisUstuPinyon.AutoSize = true;
-            this.labelModDisUstuPinyon.Location = new System.Drawing.Point(206, 324);
-            this.labelModDisUstuPinyon.Name = "labelModDisUstuPinyon";
-            this.labelModDisUstuPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelModDisUstuPinyon.TabIndex = 118;
-            this.labelModDisUstuPinyon.Text = "0";
-            this.labelModDisUstuPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelModTaksimatPinyon
-            // 
-            this.labelModTaksimatPinyon.AutoSize = true;
-            this.labelModTaksimatPinyon.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelModTaksimatPinyon.Location = new System.Drawing.Point(206, 298);
-            this.labelModTaksimatPinyon.Name = "labelModTaksimatPinyon";
-            this.labelModTaksimatPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelModTaksimatPinyon.TabIndex = 117;
-            this.labelModTaksimatPinyon.Text = "0";
-            this.labelModTaksimatPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label21.Location = new System.Drawing.Point(285, 250);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(48, 20);
-            this.label21.TabIndex = 116;
-            this.label21.Text = "Çark";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(200, 250);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(66, 20);
-            this.label22.TabIndex = 115;
-            this.label22.Text = "Pinyon";
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(9, 454);
+            this.label23.Location = new System.Drawing.Point(1, 454);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(203, 20);
+            this.label23.Size = new System.Drawing.Size(182, 20);
             this.label23.TabIndex = 114;
-            this.label23.Text = "Profil Kay. İle Eks. Ara. Mes :";
+            this.label23.Text = "Profil Kay.İle Eks Ara.Mes:";
             // 
             // label52
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label52.Location = new System.Drawing.Point(9, 428);
+            this.label52.Location = new System.Drawing.Point(19, 428);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(164, 20);
             this.label52.TabIndex = 113;
             this.label52.Text = "Eksenler Arası Mesafe :";
             // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label53.Location = new System.Drawing.Point(9, 402);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(153, 20);
-            this.label53.TabIndex = 112;
-            this.label53.Text = "Kontrol Mikr. Ölçüsü :";
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label56.Location = new System.Drawing.Point(9, 376);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(133, 20);
-            this.label56.TabIndex = 111;
-            this.label56.Text = "Kontrol Diş Sayısı :";
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label57.Location = new System.Drawing.Point(9, 350);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(103, 20);
-            this.label57.TabIndex = 110;
-            this.label57.Text = "Diş Dibi Çapı :";
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label58.Location = new System.Drawing.Point(9, 324);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(108, 20);
-            this.label58.TabIndex = 109;
-            this.label58.Text = "Diş Üstü Çapı :";
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label59.Location = new System.Drawing.Point(9, 298);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(164, 20);
-            this.label59.TabIndex = 108;
-            this.label59.Text = "Taksimat Dairesi Çapı :";
-            // 
             // label60
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label60.Location = new System.Drawing.Point(9, 156);
+            this.label60.Location = new System.Drawing.Point(4, 185);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(149, 20);
             this.label60.TabIndex = 107;
@@ -1063,6 +1078,7 @@
             this.Btnimport2.TabIndex = 17;
             this.Btnimport2.Text = "Export Et";
             this.Btnimport2.UseVisualStyleBackColor = false;
+            this.Btnimport2.Click += new System.EventHandler(this.Btnimport2_Click);
             // 
             // BtnHesapla2
             // 
@@ -1276,38 +1292,19 @@
             // 
             // DpDuzVeHeliselDislilerPanel
             // 
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label18);
+            this.DpDuzVeHeliselDislilerPanel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.panel2);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label17);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label16);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label15);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label14);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label6);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label13);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label20);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxHelisYonu);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label54);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxDpProfilKaydırmaPinyon);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxDpProfilKaydırmaCark);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label55);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelKontrolMikrCark);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelKontrolDisCark);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelDisDibiCark);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelDisUstuCark);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelTaksimatCark);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelProfilKayEksMes);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelEksenlerArasiMesafe);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelKontrolMikrPinyon);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelKontrolDisPinyon);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelDisDibiPinyon);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelDisUstuPinyon);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelTaksimatPinyon);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label7);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label8);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label9);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label10);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label11);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label12);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label24);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label25);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label27);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label29);
@@ -1327,21 +1324,252 @@
             this.DpDuzVeHeliselDislilerPanel.Size = new System.Drawing.Size(385, 498);
             this.DpDuzVeHeliselDislilerPanel.TabIndex = 12;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.label18);
+            this.panel2.Controls.Add(this.label15);
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.label13);
+            this.panel2.Controls.Add(this.label20);
+            this.panel2.Controls.Add(this.labelKontrolMikrCark);
+            this.panel2.Controls.Add(this.labelKontrolDisCark);
+            this.panel2.Controls.Add(this.labelDisDibiCark);
+            this.panel2.Controls.Add(this.labelDisUstuCark);
+            this.panel2.Controls.Add(this.labelTaksimatCark);
+            this.panel2.Controls.Add(this.labelKontrolMikrPinyon);
+            this.panel2.Controls.Add(this.labelKontrolDisPinyon);
+            this.panel2.Controls.Add(this.labelDisDibiPinyon);
+            this.panel2.Controls.Add(this.labelDisUstuPinyon);
+            this.panel2.Controls.Add(this.labelTaksimatPinyon);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.label11);
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.label24);
+            this.panel2.Location = new System.Drawing.Point(0, 229);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(385, 178);
+            this.panel2.TabIndex = 144;
+            // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(348, 353);
+            this.label18.Location = new System.Drawing.Point(345, 95);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(34, 17);
-            this.label18.TabIndex = 144;
+            this.label18.TabIndex = 165;
             this.label18.Text = "mm";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label15.Location = new System.Drawing.Point(345, 147);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(34, 17);
+            this.label15.TabIndex = 164;
+            this.label15.Text = "mm";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label14.Location = new System.Drawing.Point(345, 69);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(34, 17);
+            this.label14.TabIndex = 163;
+            this.label14.Text = "mm";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(345, 43);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(34, 17);
+            this.label6.TabIndex = 162;
+            this.label6.Text = "mm";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label13.Location = new System.Drawing.Point(270, 9);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(48, 20);
+            this.label13.TabIndex = 161;
+            this.label13.Text = "Çark";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label20.Location = new System.Drawing.Point(174, 9);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(66, 20);
+            this.label20.TabIndex = 160;
+            this.label20.Text = "Pinyon";
+            // 
+            // labelKontrolMikrCark
+            // 
+            this.labelKontrolMikrCark.AutoSize = true;
+            this.labelKontrolMikrCark.Location = new System.Drawing.Point(273, 144);
+            this.labelKontrolMikrCark.Name = "labelKontrolMikrCark";
+            this.labelKontrolMikrCark.Size = new System.Drawing.Size(17, 20);
+            this.labelKontrolMikrCark.TabIndex = 159;
+            this.labelKontrolMikrCark.Text = "0";
+            this.labelKontrolMikrCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelKontrolDisCark
+            // 
+            this.labelKontrolDisCark.AutoSize = true;
+            this.labelKontrolDisCark.Location = new System.Drawing.Point(273, 118);
+            this.labelKontrolDisCark.Name = "labelKontrolDisCark";
+            this.labelKontrolDisCark.Size = new System.Drawing.Size(17, 20);
+            this.labelKontrolDisCark.TabIndex = 158;
+            this.labelKontrolDisCark.Text = "0";
+            this.labelKontrolDisCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelDisDibiCark
+            // 
+            this.labelDisDibiCark.AutoSize = true;
+            this.labelDisDibiCark.Location = new System.Drawing.Point(273, 92);
+            this.labelDisDibiCark.Name = "labelDisDibiCark";
+            this.labelDisDibiCark.Size = new System.Drawing.Size(17, 20);
+            this.labelDisDibiCark.TabIndex = 157;
+            this.labelDisDibiCark.Text = "0";
+            this.labelDisDibiCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelDisUstuCark
+            // 
+            this.labelDisUstuCark.AutoSize = true;
+            this.labelDisUstuCark.Location = new System.Drawing.Point(273, 66);
+            this.labelDisUstuCark.Name = "labelDisUstuCark";
+            this.labelDisUstuCark.Size = new System.Drawing.Size(17, 20);
+            this.labelDisUstuCark.TabIndex = 156;
+            this.labelDisUstuCark.Text = "0";
+            this.labelDisUstuCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelTaksimatCark
+            // 
+            this.labelTaksimatCark.AutoSize = true;
+            this.labelTaksimatCark.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelTaksimatCark.Location = new System.Drawing.Point(273, 40);
+            this.labelTaksimatCark.Name = "labelTaksimatCark";
+            this.labelTaksimatCark.Size = new System.Drawing.Size(17, 20);
+            this.labelTaksimatCark.TabIndex = 155;
+            this.labelTaksimatCark.Text = "0";
+            this.labelTaksimatCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelKontrolMikrPinyon
+            // 
+            this.labelKontrolMikrPinyon.AutoSize = true;
+            this.labelKontrolMikrPinyon.Location = new System.Drawing.Point(184, 144);
+            this.labelKontrolMikrPinyon.Name = "labelKontrolMikrPinyon";
+            this.labelKontrolMikrPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelKontrolMikrPinyon.TabIndex = 154;
+            this.labelKontrolMikrPinyon.Text = "0";
+            this.labelKontrolMikrPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelKontrolDisPinyon
+            // 
+            this.labelKontrolDisPinyon.AutoSize = true;
+            this.labelKontrolDisPinyon.Location = new System.Drawing.Point(184, 118);
+            this.labelKontrolDisPinyon.Name = "labelKontrolDisPinyon";
+            this.labelKontrolDisPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelKontrolDisPinyon.TabIndex = 153;
+            this.labelKontrolDisPinyon.Text = "0";
+            this.labelKontrolDisPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelDisDibiPinyon
+            // 
+            this.labelDisDibiPinyon.AutoSize = true;
+            this.labelDisDibiPinyon.Location = new System.Drawing.Point(184, 92);
+            this.labelDisDibiPinyon.Name = "labelDisDibiPinyon";
+            this.labelDisDibiPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelDisDibiPinyon.TabIndex = 152;
+            this.labelDisDibiPinyon.Text = "0";
+            this.labelDisDibiPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelDisUstuPinyon
+            // 
+            this.labelDisUstuPinyon.AutoSize = true;
+            this.labelDisUstuPinyon.Location = new System.Drawing.Point(184, 66);
+            this.labelDisUstuPinyon.Name = "labelDisUstuPinyon";
+            this.labelDisUstuPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelDisUstuPinyon.TabIndex = 151;
+            this.labelDisUstuPinyon.Text = "0";
+            this.labelDisUstuPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelTaksimatPinyon
+            // 
+            this.labelTaksimatPinyon.AutoSize = true;
+            this.labelTaksimatPinyon.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelTaksimatPinyon.Location = new System.Drawing.Point(184, 40);
+            this.labelTaksimatPinyon.Name = "labelTaksimatPinyon";
+            this.labelTaksimatPinyon.Size = new System.Drawing.Size(17, 20);
+            this.labelTaksimatPinyon.TabIndex = 150;
+            this.labelTaksimatPinyon.Text = "0";
+            this.labelTaksimatPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label9.Location = new System.Drawing.Point(27, 144);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(153, 20);
+            this.label9.TabIndex = 149;
+            this.label9.Text = "Kontrol Mikr. Ölçüsü :";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(47, 118);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(133, 20);
+            this.label10.TabIndex = 148;
+            this.label10.Text = "Kontrol Diş Sayısı :";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.Location = new System.Drawing.Point(77, 92);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(103, 20);
+            this.label11.TabIndex = 147;
+            this.label11.Text = "Diş Dibi Çapı :";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label12.Location = new System.Drawing.Point(72, 66);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(108, 20);
+            this.label12.TabIndex = 146;
+            this.label12.Text = "Diş Üstü Çapı :";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label24.Location = new System.Drawing.Point(16, 40);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(164, 20);
+            this.label24.TabIndex = 145;
+            this.label24.Text = "Taksimat Dairesi Çapı :";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(348, 457);
+            this.label17.Location = new System.Drawing.Point(345, 457);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(34, 17);
             this.label17.TabIndex = 143;
@@ -1351,61 +1579,11 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(348, 431);
+            this.label16.Location = new System.Drawing.Point(345, 431);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(34, 17);
             this.label16.TabIndex = 142;
             this.label16.Text = "mm";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(348, 405);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(34, 17);
-            this.label15.TabIndex = 141;
-            this.label15.Text = "mm";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(348, 327);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(34, 17);
-            this.label14.TabIndex = 140;
-            this.label14.Text = "mm";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(348, 301);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(34, 17);
-            this.label6.TabIndex = 139;
-            this.label6.Text = "mm";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(285, 250);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 20);
-            this.label13.TabIndex = 118;
-            this.label13.Text = "Çark";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(200, 250);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(66, 20);
-            this.label20.TabIndex = 117;
-            this.label20.Text = "Pinyon";
             // 
             // textBoxHelisYonu
             // 
@@ -1454,61 +1632,10 @@
             this.label55.TabIndex = 92;
             this.label55.Text = "Çark :";
             // 
-            // labelKontrolMikrCark
-            // 
-            this.labelKontrolMikrCark.AutoSize = true;
-            this.labelKontrolMikrCark.Location = new System.Drawing.Point(287, 402);
-            this.labelKontrolMikrCark.Name = "labelKontrolMikrCark";
-            this.labelKontrolMikrCark.Size = new System.Drawing.Size(17, 20);
-            this.labelKontrolMikrCark.TabIndex = 83;
-            this.labelKontrolMikrCark.Text = "0";
-            this.labelKontrolMikrCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelKontrolDisCark
-            // 
-            this.labelKontrolDisCark.AutoSize = true;
-            this.labelKontrolDisCark.Location = new System.Drawing.Point(287, 376);
-            this.labelKontrolDisCark.Name = "labelKontrolDisCark";
-            this.labelKontrolDisCark.Size = new System.Drawing.Size(17, 20);
-            this.labelKontrolDisCark.TabIndex = 82;
-            this.labelKontrolDisCark.Text = "0";
-            this.labelKontrolDisCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelDisDibiCark
-            // 
-            this.labelDisDibiCark.AutoSize = true;
-            this.labelDisDibiCark.Location = new System.Drawing.Point(287, 350);
-            this.labelDisDibiCark.Name = "labelDisDibiCark";
-            this.labelDisDibiCark.Size = new System.Drawing.Size(17, 20);
-            this.labelDisDibiCark.TabIndex = 81;
-            this.labelDisDibiCark.Text = "0";
-            this.labelDisDibiCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelDisUstuCark
-            // 
-            this.labelDisUstuCark.AutoSize = true;
-            this.labelDisUstuCark.Location = new System.Drawing.Point(287, 324);
-            this.labelDisUstuCark.Name = "labelDisUstuCark";
-            this.labelDisUstuCark.Size = new System.Drawing.Size(17, 20);
-            this.labelDisUstuCark.TabIndex = 80;
-            this.labelDisUstuCark.Text = "0";
-            this.labelDisUstuCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelTaksimatCark
-            // 
-            this.labelTaksimatCark.AutoSize = true;
-            this.labelTaksimatCark.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelTaksimatCark.Location = new System.Drawing.Point(287, 298);
-            this.labelTaksimatCark.Name = "labelTaksimatCark";
-            this.labelTaksimatCark.Size = new System.Drawing.Size(17, 20);
-            this.labelTaksimatCark.TabIndex = 79;
-            this.labelTaksimatCark.Text = "0";
-            this.labelTaksimatCark.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // labelProfilKayEksMes
             // 
             this.labelProfilKayEksMes.AutoSize = true;
-            this.labelProfilKayEksMes.Location = new System.Drawing.Point(247, 454);
+            this.labelProfilKayEksMes.Location = new System.Drawing.Point(184, 454);
             this.labelProfilKayEksMes.Name = "labelProfilKayEksMes";
             this.labelProfilKayEksMes.Size = new System.Drawing.Size(17, 20);
             this.labelProfilKayEksMes.TabIndex = 76;
@@ -1518,133 +1645,32 @@
             // labelEksenlerArasiMesafe
             // 
             this.labelEksenlerArasiMesafe.AutoSize = true;
-            this.labelEksenlerArasiMesafe.Location = new System.Drawing.Point(247, 428);
+            this.labelEksenlerArasiMesafe.Location = new System.Drawing.Point(184, 428);
             this.labelEksenlerArasiMesafe.Name = "labelEksenlerArasiMesafe";
             this.labelEksenlerArasiMesafe.Size = new System.Drawing.Size(17, 20);
             this.labelEksenlerArasiMesafe.TabIndex = 75;
             this.labelEksenlerArasiMesafe.Text = "0";
             this.labelEksenlerArasiMesafe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelKontrolMikrPinyon
-            // 
-            this.labelKontrolMikrPinyon.AutoSize = true;
-            this.labelKontrolMikrPinyon.Location = new System.Drawing.Point(206, 402);
-            this.labelKontrolMikrPinyon.Name = "labelKontrolMikrPinyon";
-            this.labelKontrolMikrPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelKontrolMikrPinyon.TabIndex = 74;
-            this.labelKontrolMikrPinyon.Text = "0";
-            this.labelKontrolMikrPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelKontrolDisPinyon
-            // 
-            this.labelKontrolDisPinyon.AutoSize = true;
-            this.labelKontrolDisPinyon.Location = new System.Drawing.Point(206, 375);
-            this.labelKontrolDisPinyon.Name = "labelKontrolDisPinyon";
-            this.labelKontrolDisPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelKontrolDisPinyon.TabIndex = 73;
-            this.labelKontrolDisPinyon.Text = "0";
-            this.labelKontrolDisPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelDisDibiPinyon
-            // 
-            this.labelDisDibiPinyon.AutoSize = true;
-            this.labelDisDibiPinyon.Location = new System.Drawing.Point(206, 350);
-            this.labelDisDibiPinyon.Name = "labelDisDibiPinyon";
-            this.labelDisDibiPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelDisDibiPinyon.TabIndex = 72;
-            this.labelDisDibiPinyon.Text = "0";
-            this.labelDisDibiPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelDisUstuPinyon
-            // 
-            this.labelDisUstuPinyon.AutoSize = true;
-            this.labelDisUstuPinyon.Location = new System.Drawing.Point(206, 324);
-            this.labelDisUstuPinyon.Name = "labelDisUstuPinyon";
-            this.labelDisUstuPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelDisUstuPinyon.TabIndex = 71;
-            this.labelDisUstuPinyon.Text = "0";
-            this.labelDisUstuPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelTaksimatPinyon
-            // 
-            this.labelTaksimatPinyon.AutoSize = true;
-            this.labelTaksimatPinyon.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelTaksimatPinyon.Location = new System.Drawing.Point(206, 298);
-            this.labelTaksimatPinyon.Name = "labelTaksimatPinyon";
-            this.labelTaksimatPinyon.Size = new System.Drawing.Size(17, 20);
-            this.labelTaksimatPinyon.TabIndex = 70;
-            this.labelTaksimatPinyon.Text = "0";
-            this.labelTaksimatPinyon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(9, 454);
+            this.label7.Location = new System.Drawing.Point(1, 454);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(203, 20);
+            this.label7.Size = new System.Drawing.Size(182, 20);
             this.label7.TabIndex = 53;
-            this.label7.Text = "Profil Kay. İle Eks. Ara. Mes :";
+            this.label7.Text = "Profil Kay.İle Eks Ara.Mes:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(9, 428);
+            this.label8.Location = new System.Drawing.Point(19, 428);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(164, 20);
             this.label8.TabIndex = 52;
             this.label8.Text = "Eksenler Arası Mesafe :";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(9, 402);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(153, 20);
-            this.label9.TabIndex = 51;
-            this.label9.Text = "Kontrol Mikr. Ölçüsü :";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(9, 376);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(133, 20);
-            this.label10.TabIndex = 50;
-            this.label10.Text = "Kontrol Diş Sayısı :";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(9, 350);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(103, 20);
-            this.label11.TabIndex = 49;
-            this.label11.Text = "Diş Dibi Çapı :";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(9, 324);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(108, 20);
-            this.label12.TabIndex = 48;
-            this.label12.Text = "Diş Üstü Çapı :";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.Location = new System.Drawing.Point(9, 298);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(164, 20);
-            this.label24.TabIndex = 47;
-            this.label24.Text = "Taksimat Dairesi Çapı :";
             // 
             // label25
             // 
@@ -1781,10 +1807,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(929, 615);
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ClientSize = new System.Drawing.Size(925, 615);
             this.Controls.Add(this.tabControl1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Teknoplan Dişli Hesabı";
@@ -1797,6 +1825,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ModulDuzVeHeliselDislilerPanel.ResumeLayout(false);
             this.ModulDuzVeHeliselDislilerPanel.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -1805,6 +1835,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.DpDuzVeHeliselDislilerPanel.ResumeLayout(false);
             this.DpDuzVeHeliselDislilerPanel.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1864,25 +1896,10 @@
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.TextBox textBoxDpGercekKavrama4;
         private System.Windows.Forms.Panel DpDuzVeHeliselDislilerPanel;
-        private System.Windows.Forms.Label labelKontrolMikrCark;
-        private System.Windows.Forms.Label labelKontrolDisCark;
-        private System.Windows.Forms.Label labelDisDibiCark;
-        private System.Windows.Forms.Label labelDisUstuCark;
-        private System.Windows.Forms.Label labelTaksimatCark;
         private System.Windows.Forms.Label labelProfilKayEksMes;
         private System.Windows.Forms.Label labelEksenlerArasiMesafe;
-        private System.Windows.Forms.Label labelKontrolMikrPinyon;
-        private System.Windows.Forms.Label labelKontrolDisPinyon;
-        private System.Windows.Forms.Label labelDisDibiPinyon;
-        private System.Windows.Forms.Label labelDisUstuPinyon;
-        private System.Windows.Forms.Label labelTaksimatPinyon;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label29;
@@ -1906,27 +1923,10 @@
         private System.Windows.Forms.TextBox textBoxModProfilKaydırmaPinyon;
         private System.Windows.Forms.TextBox textBoxModProfilKaydırmaCark;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label labelModKontrolMikrCark;
-        private System.Windows.Forms.Label labelModKontrolDisCark;
-        private System.Windows.Forms.Label labelModDisDibiCark;
-        private System.Windows.Forms.Label labelModDisUstuCark;
-        private System.Windows.Forms.Label labelModTaksimatCark;
         private System.Windows.Forms.Label labelModProfilKayEksMes;
         private System.Windows.Forms.Label labelModEksenlerArasiMesafe;
-        private System.Windows.Forms.Label labelModKontrolMikrPinyon;
-        private System.Windows.Forms.Label labelModKontrolDisPinyon;
-        private System.Windows.Forms.Label labelModDisDibiPinyon;
-        private System.Windows.Forms.Label labelModDisUstuPinyon;
-        private System.Windows.Forms.Label labelModTaksimatPinyon;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label63;
@@ -1941,21 +1941,55 @@
         private System.Windows.Forms.TextBox textBoxModCarkDisSayisi;
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox textBoxModAlinModulu;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelModKontrolMikrCark;
+        private System.Windows.Forms.Label labelModKontrolDisCark;
+        private System.Windows.Forms.Label labelModDisDibiCark;
+        private System.Windows.Forms.Label labelModDisUstuCark;
+        private System.Windows.Forms.Label labelModTaksimatCark;
+        private System.Windows.Forms.Label labelModKontrolMikrPinyon;
+        private System.Windows.Forms.Label labelModKontrolDisPinyon;
+        private System.Windows.Forms.Label labelModDisDibiPinyon;
+        private System.Windows.Forms.Label labelModDisUstuPinyon;
+        private System.Windows.Forms.Label labelModTaksimatPinyon;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label72;
-        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label labelKontrolMikrCark;
+        private System.Windows.Forms.Label labelKontrolDisCark;
+        private System.Windows.Forms.Label labelDisDibiCark;
+        private System.Windows.Forms.Label labelDisUstuCark;
+        private System.Windows.Forms.Label labelTaksimatCark;
+        private System.Windows.Forms.Label labelKontrolMikrPinyon;
+        private System.Windows.Forms.Label labelKontrolDisPinyon;
+        private System.Windows.Forms.Label labelDisDibiPinyon;
+        private System.Windows.Forms.Label labelDisUstuPinyon;
+        private System.Windows.Forms.Label labelTaksimatPinyon;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label24;
     }
 }
 
