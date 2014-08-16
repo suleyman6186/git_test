@@ -56,6 +56,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnHesapla1 = new System.Windows.Forms.Button();
             this.ModulDuzVeHeliselDislilerPanel = new System.Windows.Forms.Panel();
+            this.maskedtextBoxModProfilKaydırmaCark = new System.Windows.Forms.MaskedTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label65 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -78,31 +79,30 @@
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
-            this.textBoxModAlinModulu = new System.Windows.Forms.TextBox();
+            this.maskedtextBoxModProfilKaydırmaPinyon = new System.Windows.Forms.MaskedTextBox();
             this.label71 = new System.Windows.Forms.Label();
+            this.maskedtextBoxModAlinModulu = new System.Windows.Forms.MaskedTextBox();
             this.label73 = new System.Windows.Forms.Label();
+            this.maskedtextBoxModHelisYonu = new System.Windows.Forms.MaskedTextBox();
             this.label72 = new System.Windows.Forms.Label();
-            this.textBoxModHelisYonu = new System.Windows.Forms.TextBox();
+            this.maskedtextBoxModHelisAcisi = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBoxModProfilKaydırmaPinyon = new System.Windows.Forms.TextBox();
-            this.textBoxModProfilKaydırmaCark = new System.Windows.Forms.TextBox();
+            this.maskedtextBoxModKavramaAcisi = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.maskedtextBoxModCarkDisSayisi = new System.Windows.Forms.MaskedTextBox();
+            this.maskedtextBoxModPinyonDisSayisi = new System.Windows.Forms.MaskedTextBox();
             this.labelModProfilKayEksMes = new System.Windows.Forms.Label();
             this.labelModEksenlerArasiMesafe = new System.Windows.Forms.Label();
+            this.maskedtextBoxMod = new System.Windows.Forms.MaskedTextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
-            this.textBoxModHelisAcisi = new System.Windows.Forms.TextBox();
-            this.textBoxMod = new System.Windows.Forms.TextBox();
             this.label66 = new System.Windows.Forms.Label();
             this.label67 = new System.Windows.Forms.Label();
-            this.textBoxModKavramaAcisi = new System.Windows.Forms.TextBox();
             this.label68 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
-            this.textBoxModPinyonDisSayisi = new System.Windows.Forms.TextBox();
-            this.textBoxModCarkDisSayisi = new System.Windows.Forms.TextBox();
             this.label70 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -130,6 +130,7 @@
             this.label50 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.DpDuzVeHeliselDislilerPanel = new System.Windows.Forms.Panel();
+            this.maskedtextBoxDpProfilKaydırmaCark = new System.Windows.Forms.MaskedTextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -152,29 +153,28 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.maskedtextBoxCark2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedtextBoxDpProfilKaydırmaPinyon = new System.Windows.Forms.MaskedTextBox();
             this.label17 = new System.Windows.Forms.Label();
+            this.maskedtextBoxHelisYonu = new System.Windows.Forms.MaskedTextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBoxHelisYonu = new System.Windows.Forms.TextBox();
+            this.maskedtextBoxHelis2 = new System.Windows.Forms.MaskedTextBox();
             this.label54 = new System.Windows.Forms.Label();
-            this.textBoxDpProfilKaydırmaPinyon = new System.Windows.Forms.TextBox();
-            this.textBoxDpProfilKaydırmaCark = new System.Windows.Forms.TextBox();
+            this.maskedtextBoxKavrama2 = new System.Windows.Forms.MaskedTextBox();
             this.label55 = new System.Windows.Forms.Label();
+            this.maskedtextBoxPinyon2 = new System.Windows.Forms.MaskedTextBox();
             this.labelProfilKayEksMes = new System.Windows.Forms.Label();
             this.labelEksenlerArasiMesafe = new System.Windows.Forms.Label();
+            this.maskedtextBoxDiameter = new System.Windows.Forms.MaskedTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.textBoxHelis2 = new System.Windows.Forms.TextBox();
-            this.textBoxDiameter = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.textBoxKavrama2 = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.textBoxPinyon2 = new System.Windows.Forms.TextBox();
-            this.textBoxCark2 = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -202,7 +202,6 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(922, 618);
             this.tabControl1.TabIndex = 1;
-            this.tabControl1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDiameter_KeyPress);
             // 
             // tabPage1
             // 
@@ -242,7 +241,7 @@
             this.BtnExport1.Location = new System.Drawing.Point(697, 535);
             this.BtnExport1.Name = "BtnExport1";
             this.BtnExport1.Size = new System.Drawing.Size(98, 44);
-            this.BtnExport1.TabIndex = 8;
+            this.BtnExport1.TabIndex = 13;
             this.BtnExport1.Text = "Export Et";
             this.BtnExport1.UseVisualStyleBackColor = false;
             this.BtnExport1.Click += new System.EventHandler(this.BtnExport1_Click);
@@ -255,7 +254,7 @@
             this.BtnTemizle1.Location = new System.Drawing.Point(122, 535);
             this.BtnTemizle1.Name = "BtnTemizle1";
             this.BtnTemizle1.Size = new System.Drawing.Size(98, 44);
-            this.BtnTemizle1.TabIndex = 7;
+            this.BtnTemizle1.TabIndex = 12;
             this.BtnTemizle1.Text = "Temizle";
             this.BtnTemizle1.UseVisualStyleBackColor = false;
             this.BtnTemizle1.Click += new System.EventHandler(this.BtnTemizle1_Click);
@@ -268,7 +267,7 @@
             this.BtnCikis1.Location = new System.Drawing.Point(813, 535);
             this.BtnCikis1.Name = "BtnCikis1";
             this.BtnCikis1.Size = new System.Drawing.Size(98, 44);
-            this.BtnCikis1.TabIndex = 9;
+            this.BtnCikis1.TabIndex = 14;
             this.BtnCikis1.Text = "Çıkış";
             this.BtnCikis1.UseVisualStyleBackColor = false;
             this.BtnCikis1.Click += new System.EventHandler(this.BtnCikis1_Click);
@@ -276,7 +275,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::DisliHesabi.Properties.Resources.teknoplan_mini;
-            this.pictureBox3.Location = new System.Drawing.Point(411, 535);
+            this.pictureBox3.Location = new System.Drawing.Point(411, 527);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(130, 55);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -478,7 +477,7 @@
             this.BtnHesapla1.Location = new System.Drawing.Point(6, 535);
             this.BtnHesapla1.Name = "BtnHesapla1";
             this.BtnHesapla1.Size = new System.Drawing.Size(98, 44);
-            this.BtnHesapla1.TabIndex = 6;
+            this.BtnHesapla1.TabIndex = 11;
             this.BtnHesapla1.Text = "Hesapla";
             this.BtnHesapla1.UseVisualStyleBackColor = false;
             this.BtnHesapla1.Click += new System.EventHandler(this.BtnHesapla1_Click);
@@ -486,38 +485,48 @@
             // ModulDuzVeHeliselDislilerPanel
             // 
             this.ModulDuzVeHeliselDislilerPanel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxModProfilKaydırmaCark);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.panel1);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModAlinModulu);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxModProfilKaydırmaPinyon);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label71);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxModAlinModulu);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label73);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxModHelisYonu);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label72);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModHelisYonu);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxModHelisAcisi);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label1);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModProfilKaydırmaPinyon);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModProfilKaydırmaCark);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxModKavramaAcisi);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label2);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxModCarkDisSayisi);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxModPinyonDisSayisi);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModProfilKayEksMes);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.labelModEksenlerArasiMesafe);
+            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxMod);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label23);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label52);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label60);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label61);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label63);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModHelisAcisi);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxMod);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label66);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label67);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModKavramaAcisi);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label68);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label69);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModPinyonDisSayisi);
-            this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxModCarkDisSayisi);
             this.ModulDuzVeHeliselDislilerPanel.Controls.Add(this.label70);
             this.ModulDuzVeHeliselDislilerPanel.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ModulDuzVeHeliselDislilerPanel.Location = new System.Drawing.Point(6, 6);
             this.ModulDuzVeHeliselDislilerPanel.Name = "ModulDuzVeHeliselDislilerPanel";
             this.ModulDuzVeHeliselDislilerPanel.Size = new System.Drawing.Size(385, 498);
             this.ModulDuzVeHeliselDislilerPanel.TabIndex = 2;
+            // 
+            // maskedtextBoxModProfilKaydırmaCark
+            // 
+            this.maskedtextBoxModProfilKaydırmaCark.Location = new System.Drawing.Point(333, 183);
+            this.maskedtextBoxModProfilKaydırmaCark.Mask = "00000";
+            this.maskedtextBoxModProfilKaydırmaCark.Name = "maskedtextBoxModProfilKaydırmaCark";
+            this.maskedtextBoxModProfilKaydırmaCark.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxModProfilKaydırmaCark.TabIndex = 10;
+            this.maskedtextBoxModProfilKaydırmaCark.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.maskedtextBoxModProfilKaydırmaCark.ValidatingType = typeof(int);
             // 
             // panel1
             // 
@@ -760,14 +769,15 @@
             this.label59.TabIndex = 142;
             this.label59.Text = "Taksimat Dairesi Çapı :";
             // 
-            // textBoxModAlinModulu
+            // maskedtextBoxModProfilKaydırmaPinyon
             // 
-            this.textBoxModAlinModulu.Location = new System.Drawing.Point(225, 152);
-            this.textBoxModAlinModulu.Name = "textBoxModAlinModulu";
-            this.textBoxModAlinModulu.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModAlinModulu.TabIndex = 129;
-            this.textBoxModAlinModulu.Text = "0";
-            this.textBoxModAlinModulu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.maskedtextBoxModProfilKaydırmaPinyon.Location = new System.Drawing.Point(225, 183);
+            this.maskedtextBoxModProfilKaydırmaPinyon.Mask = "00000";
+            this.maskedtextBoxModProfilKaydırmaPinyon.Name = "maskedtextBoxModProfilKaydırmaPinyon";
+            this.maskedtextBoxModProfilKaydırmaPinyon.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxModProfilKaydırmaPinyon.TabIndex = 9;
+            this.maskedtextBoxModProfilKaydırmaPinyon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.maskedtextBoxModProfilKaydırmaPinyon.ValidatingType = typeof(int);
             // 
             // label71
             // 
@@ -779,6 +789,15 @@
             this.label71.TabIndex = 134;
             this.label71.Text = "Alın Moduülü :";
             // 
+            // maskedtextBoxModAlinModulu
+            // 
+            this.maskedtextBoxModAlinModulu.Location = new System.Drawing.Point(225, 153);
+            this.maskedtextBoxModAlinModulu.Mask = "00000";
+            this.maskedtextBoxModAlinModulu.Name = "maskedtextBoxModAlinModulu";
+            this.maskedtextBoxModAlinModulu.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxModAlinModulu.TabIndex = 8;
+            this.maskedtextBoxModAlinModulu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // label73
             // 
             this.label73.AutoSize = true;
@@ -788,6 +807,15 @@
             this.label73.Size = new System.Drawing.Size(34, 17);
             this.label73.TabIndex = 143;
             this.label73.Text = "mm";
+            // 
+            // maskedtextBoxModHelisYonu
+            // 
+            this.maskedtextBoxModHelisYonu.Location = new System.Drawing.Point(225, 123);
+            this.maskedtextBoxModHelisYonu.Mask = "00000";
+            this.maskedtextBoxModHelisYonu.Name = "maskedtextBoxModHelisYonu";
+            this.maskedtextBoxModHelisYonu.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxModHelisYonu.TabIndex = 7;
+            this.maskedtextBoxModHelisYonu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label72
             // 
@@ -799,14 +827,14 @@
             this.label72.TabIndex = 142;
             this.label72.Text = "mm";
             // 
-            // textBoxModHelisYonu
+            // maskedtextBoxModHelisAcisi
             // 
-            this.textBoxModHelisYonu.Location = new System.Drawing.Point(225, 123);
-            this.textBoxModHelisYonu.Name = "textBoxModHelisYonu";
-            this.textBoxModHelisYonu.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModHelisYonu.TabIndex = 128;
-            this.textBoxModHelisYonu.Text = "0";
-            this.textBoxModHelisYonu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.maskedtextBoxModHelisAcisi.Location = new System.Drawing.Point(225, 93);
+            this.maskedtextBoxModHelisAcisi.Mask = "00000";
+            this.maskedtextBoxModHelisAcisi.Name = "maskedtextBoxModHelisAcisi";
+            this.maskedtextBoxModHelisAcisi.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxModHelisAcisi.TabIndex = 6;
+            this.maskedtextBoxModHelisAcisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -818,23 +846,14 @@
             this.label1.TabIndex = 131;
             this.label1.Text = "Pinyon :";
             // 
-            // textBoxModProfilKaydırmaPinyon
+            // maskedtextBoxModKavramaAcisi
             // 
-            this.textBoxModProfilKaydırmaPinyon.Location = new System.Drawing.Point(225, 182);
-            this.textBoxModProfilKaydırmaPinyon.Name = "textBoxModProfilKaydırmaPinyon";
-            this.textBoxModProfilKaydırmaPinyon.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModProfilKaydırmaPinyon.TabIndex = 130;
-            this.textBoxModProfilKaydırmaPinyon.Text = "0";
-            this.textBoxModProfilKaydırmaPinyon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBoxModProfilKaydırmaCark
-            // 
-            this.textBoxModProfilKaydırmaCark.Location = new System.Drawing.Point(333, 182);
-            this.textBoxModProfilKaydırmaCark.Name = "textBoxModProfilKaydırmaCark";
-            this.textBoxModProfilKaydırmaCark.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModProfilKaydırmaCark.TabIndex = 136;
-            this.textBoxModProfilKaydırmaCark.Text = "0";
-            this.textBoxModProfilKaydırmaCark.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.maskedtextBoxModKavramaAcisi.Location = new System.Drawing.Point(225, 63);
+            this.maskedtextBoxModKavramaAcisi.Mask = "00000";
+            this.maskedtextBoxModKavramaAcisi.Name = "maskedtextBoxModKavramaAcisi";
+            this.maskedtextBoxModKavramaAcisi.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxModKavramaAcisi.TabIndex = 5;
+            this.maskedtextBoxModKavramaAcisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -845,6 +864,24 @@
             this.label2.Size = new System.Drawing.Size(51, 20);
             this.label2.TabIndex = 132;
             this.label2.Text = "Çark :";
+            // 
+            // maskedtextBoxModCarkDisSayisi
+            // 
+            this.maskedtextBoxModCarkDisSayisi.Location = new System.Drawing.Point(333, 33);
+            this.maskedtextBoxModCarkDisSayisi.Mask = "00000";
+            this.maskedtextBoxModCarkDisSayisi.Name = "maskedtextBoxModCarkDisSayisi";
+            this.maskedtextBoxModCarkDisSayisi.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxModCarkDisSayisi.TabIndex = 4;
+            this.maskedtextBoxModCarkDisSayisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // maskedtextBoxModPinyonDisSayisi
+            // 
+            this.maskedtextBoxModPinyonDisSayisi.Location = new System.Drawing.Point(225, 33);
+            this.maskedtextBoxModPinyonDisSayisi.Mask = "00000";
+            this.maskedtextBoxModPinyonDisSayisi.Name = "maskedtextBoxModPinyonDisSayisi";
+            this.maskedtextBoxModPinyonDisSayisi.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxModPinyonDisSayisi.TabIndex = 3;
+            this.maskedtextBoxModPinyonDisSayisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelModProfilKayEksMes
             // 
@@ -865,6 +902,16 @@
             this.labelModEksenlerArasiMesafe.TabIndex = 122;
             this.labelModEksenlerArasiMesafe.Text = "0";
             this.labelModEksenlerArasiMesafe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // maskedtextBoxMod
+            // 
+            this.maskedtextBoxMod.Location = new System.Drawing.Point(225, 3);
+            this.maskedtextBoxMod.Mask = "00000";
+            this.maskedtextBoxMod.Name = "maskedtextBoxMod";
+            this.maskedtextBoxMod.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxMod.TabIndex = 2;
+            this.maskedtextBoxMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.maskedtextBoxMod.ValidatingType = typeof(int);
             // 
             // label23
             // 
@@ -916,24 +963,6 @@
             this.label63.TabIndex = 99;
             this.label63.Text = "Mod :";
             // 
-            // textBoxModHelisAcisi
-            // 
-            this.textBoxModHelisAcisi.Location = new System.Drawing.Point(225, 93);
-            this.textBoxModHelisAcisi.Name = "textBoxModHelisAcisi";
-            this.textBoxModHelisAcisi.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModHelisAcisi.TabIndex = 98;
-            this.textBoxModHelisAcisi.Text = "0";
-            this.textBoxModHelisAcisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBoxMod
-            // 
-            this.textBoxMod.Location = new System.Drawing.Point(225, 3);
-            this.textBoxMod.Name = "textBoxMod";
-            this.textBoxMod.Size = new System.Drawing.Size(45, 25);
-            this.textBoxMod.TabIndex = 94;
-            this.textBoxMod.Text = "0";
-            this.textBoxMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // label66
             // 
             this.label66.AutoSize = true;
@@ -954,15 +983,6 @@
             this.label67.TabIndex = 100;
             this.label67.Text = "Diş Sayısı :";
             // 
-            // textBoxModKavramaAcisi
-            // 
-            this.textBoxModKavramaAcisi.Location = new System.Drawing.Point(225, 63);
-            this.textBoxModKavramaAcisi.Name = "textBoxModKavramaAcisi";
-            this.textBoxModKavramaAcisi.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModKavramaAcisi.TabIndex = 97;
-            this.textBoxModKavramaAcisi.Text = "0";
-            this.textBoxModKavramaAcisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // label68
             // 
             this.label68.AutoSize = true;
@@ -982,24 +1002,6 @@
             this.label69.Size = new System.Drawing.Size(117, 20);
             this.label69.TabIndex = 103;
             this.label69.Text = "Kavrama Açısı :";
-            // 
-            // textBoxModPinyonDisSayisi
-            // 
-            this.textBoxModPinyonDisSayisi.Location = new System.Drawing.Point(225, 33);
-            this.textBoxModPinyonDisSayisi.Name = "textBoxModPinyonDisSayisi";
-            this.textBoxModPinyonDisSayisi.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModPinyonDisSayisi.TabIndex = 95;
-            this.textBoxModPinyonDisSayisi.Text = "0";
-            this.textBoxModPinyonDisSayisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBoxModCarkDisSayisi
-            // 
-            this.textBoxModCarkDisSayisi.Location = new System.Drawing.Point(333, 33);
-            this.textBoxModCarkDisSayisi.Name = "textBoxModCarkDisSayisi";
-            this.textBoxModCarkDisSayisi.Size = new System.Drawing.Size(45, 25);
-            this.textBoxModCarkDisSayisi.TabIndex = 96;
-            this.textBoxModCarkDisSayisi.Text = "0";
-            this.textBoxModCarkDisSayisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label70
             // 
@@ -1034,7 +1036,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::DisliHesabi.Properties.Resources.teknoplan_mini;
-            this.pictureBox4.Location = new System.Drawing.Point(411, 535);
+            this.pictureBox4.Location = new System.Drawing.Point(411, 527);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(130, 55);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1049,7 +1051,7 @@
             this.BtnTemizle2.Location = new System.Drawing.Point(122, 535);
             this.BtnTemizle2.Name = "BtnTemizle2";
             this.BtnTemizle2.Size = new System.Drawing.Size(98, 44);
-            this.BtnTemizle2.TabIndex = 16;
+            this.BtnTemizle2.TabIndex = 24;
             this.BtnTemizle2.Text = "Temizle";
             this.BtnTemizle2.UseVisualStyleBackColor = false;
             this.BtnTemizle2.Click += new System.EventHandler(this.BtnTemizle2_Click);
@@ -1062,7 +1064,7 @@
             this.BtnCikis2.Location = new System.Drawing.Point(813, 535);
             this.BtnCikis2.Name = "BtnCikis2";
             this.BtnCikis2.Size = new System.Drawing.Size(98, 44);
-            this.BtnCikis2.TabIndex = 18;
+            this.BtnCikis2.TabIndex = 26;
             this.BtnCikis2.Text = "Çıkış";
             this.BtnCikis2.UseVisualStyleBackColor = false;
             this.BtnCikis2.Click += new System.EventHandler(this.BtnCikis2_Click);
@@ -1075,7 +1077,7 @@
             this.Btnimport2.Location = new System.Drawing.Point(697, 535);
             this.Btnimport2.Name = "Btnimport2";
             this.Btnimport2.Size = new System.Drawing.Size(98, 44);
-            this.Btnimport2.TabIndex = 17;
+            this.Btnimport2.TabIndex = 25;
             this.Btnimport2.Text = "Export Et";
             this.Btnimport2.UseVisualStyleBackColor = false;
             this.Btnimport2.Click += new System.EventHandler(this.Btnimport2_Click);
@@ -1088,7 +1090,7 @@
             this.BtnHesapla2.Location = new System.Drawing.Point(6, 535);
             this.BtnHesapla2.Name = "BtnHesapla2";
             this.BtnHesapla2.Size = new System.Drawing.Size(98, 44);
-            this.BtnHesapla2.TabIndex = 15;
+            this.BtnHesapla2.TabIndex = 23;
             this.BtnHesapla2.Text = "Hesapla";
             this.BtnHesapla2.UseVisualStyleBackColor = false;
             this.BtnHesapla2.Click += new System.EventHandler(this.BtnHesapla2_Click);
@@ -1293,36 +1295,45 @@
             // DpDuzVeHeliselDislilerPanel
             // 
             this.DpDuzVeHeliselDislilerPanel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxDpProfilKaydırmaCark);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.panel2);
+            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxCark2);
+            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxDpProfilKaydırmaPinyon);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label17);
+            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxHelisYonu);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label16);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxHelisYonu);
+            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxHelis2);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label54);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxDpProfilKaydırmaPinyon);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxDpProfilKaydırmaCark);
+            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxKavrama2);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label55);
+            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxPinyon2);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelProfilKayEksMes);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.labelEksenlerArasiMesafe);
+            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.maskedtextBoxDiameter);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label7);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label8);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label25);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label27);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label29);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxHelis2);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxDiameter);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label30);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label31);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxKavrama2);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label32);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label33);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxPinyon2);
-            this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.textBoxCark2);
             this.DpDuzVeHeliselDislilerPanel.Controls.Add(this.label34);
             this.DpDuzVeHeliselDislilerPanel.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.DpDuzVeHeliselDislilerPanel.Location = new System.Drawing.Point(6, 6);
             this.DpDuzVeHeliselDislilerPanel.Name = "DpDuzVeHeliselDislilerPanel";
             this.DpDuzVeHeliselDislilerPanel.Size = new System.Drawing.Size(385, 498);
             this.DpDuzVeHeliselDislilerPanel.TabIndex = 12;
+            // 
+            // maskedtextBoxDpProfilKaydırmaCark
+            // 
+            this.maskedtextBoxDpProfilKaydırmaCark.Location = new System.Drawing.Point(333, 156);
+            this.maskedtextBoxDpProfilKaydırmaCark.Mask = "00000";
+            this.maskedtextBoxDpProfilKaydırmaCark.Name = "maskedtextBoxDpProfilKaydırmaCark";
+            this.maskedtextBoxDpProfilKaydırmaCark.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxDpProfilKaydırmaCark.TabIndex = 22;
+            this.maskedtextBoxDpProfilKaydırmaCark.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel2
             // 
@@ -1565,6 +1576,24 @@
             this.label24.TabIndex = 145;
             this.label24.Text = "Taksimat Dairesi Çapı :";
             // 
+            // maskedtextBoxCark2
+            // 
+            this.maskedtextBoxCark2.Location = new System.Drawing.Point(333, 33);
+            this.maskedtextBoxCark2.Mask = "00000";
+            this.maskedtextBoxCark2.Name = "maskedtextBoxCark2";
+            this.maskedtextBoxCark2.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxCark2.TabIndex = 17;
+            this.maskedtextBoxCark2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // maskedtextBoxDpProfilKaydırmaPinyon
+            // 
+            this.maskedtextBoxDpProfilKaydırmaPinyon.Location = new System.Drawing.Point(225, 153);
+            this.maskedtextBoxDpProfilKaydırmaPinyon.Mask = "00000";
+            this.maskedtextBoxDpProfilKaydırmaPinyon.Name = "maskedtextBoxDpProfilKaydırmaPinyon";
+            this.maskedtextBoxDpProfilKaydırmaPinyon.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxDpProfilKaydırmaPinyon.TabIndex = 21;
+            this.maskedtextBoxDpProfilKaydırmaPinyon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -1574,6 +1603,15 @@
             this.label17.Size = new System.Drawing.Size(34, 17);
             this.label17.TabIndex = 143;
             this.label17.Text = "mm";
+            // 
+            // maskedtextBoxHelisYonu
+            // 
+            this.maskedtextBoxHelisYonu.Location = new System.Drawing.Point(225, 123);
+            this.maskedtextBoxHelisYonu.Mask = "00000";
+            this.maskedtextBoxHelisYonu.Name = "maskedtextBoxHelisYonu";
+            this.maskedtextBoxHelisYonu.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxHelisYonu.TabIndex = 20;
+            this.maskedtextBoxHelisYonu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label16
             // 
@@ -1585,14 +1623,14 @@
             this.label16.TabIndex = 142;
             this.label16.Text = "mm";
             // 
-            // textBoxHelisYonu
+            // maskedtextBoxHelis2
             // 
-            this.textBoxHelisYonu.Location = new System.Drawing.Point(225, 123);
-            this.textBoxHelisYonu.Name = "textBoxHelisYonu";
-            this.textBoxHelisYonu.Size = new System.Drawing.Size(45, 25);
-            this.textBoxHelisYonu.TabIndex = 89;
-            this.textBoxHelisYonu.Text = "0";
-            this.textBoxHelisYonu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.maskedtextBoxHelis2.Location = new System.Drawing.Point(225, 93);
+            this.maskedtextBoxHelis2.Mask = "00000";
+            this.maskedtextBoxHelis2.Name = "maskedtextBoxHelis2";
+            this.maskedtextBoxHelis2.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxHelis2.TabIndex = 19;
+            this.maskedtextBoxHelis2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label54
             // 
@@ -1604,23 +1642,14 @@
             this.label54.TabIndex = 91;
             this.label54.Text = "Pinyon :";
             // 
-            // textBoxDpProfilKaydırmaPinyon
+            // maskedtextBoxKavrama2
             // 
-            this.textBoxDpProfilKaydırmaPinyon.Location = new System.Drawing.Point(225, 153);
-            this.textBoxDpProfilKaydırmaPinyon.Name = "textBoxDpProfilKaydırmaPinyon";
-            this.textBoxDpProfilKaydırmaPinyon.Size = new System.Drawing.Size(45, 25);
-            this.textBoxDpProfilKaydırmaPinyon.TabIndex = 90;
-            this.textBoxDpProfilKaydırmaPinyon.Text = "0";
-            this.textBoxDpProfilKaydırmaPinyon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBoxDpProfilKaydırmaCark
-            // 
-            this.textBoxDpProfilKaydırmaCark.Location = new System.Drawing.Point(333, 153);
-            this.textBoxDpProfilKaydırmaCark.Name = "textBoxDpProfilKaydırmaCark";
-            this.textBoxDpProfilKaydırmaCark.Size = new System.Drawing.Size(45, 25);
-            this.textBoxDpProfilKaydırmaCark.TabIndex = 91;
-            this.textBoxDpProfilKaydırmaCark.Text = "0";
-            this.textBoxDpProfilKaydırmaCark.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.maskedtextBoxKavrama2.Location = new System.Drawing.Point(225, 63);
+            this.maskedtextBoxKavrama2.Mask = "00000";
+            this.maskedtextBoxKavrama2.Name = "maskedtextBoxKavrama2";
+            this.maskedtextBoxKavrama2.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxKavrama2.TabIndex = 18;
+            this.maskedtextBoxKavrama2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label55
             // 
@@ -1631,6 +1660,15 @@
             this.label55.Size = new System.Drawing.Size(51, 20);
             this.label55.TabIndex = 92;
             this.label55.Text = "Çark :";
+            // 
+            // maskedtextBoxPinyon2
+            // 
+            this.maskedtextBoxPinyon2.Location = new System.Drawing.Point(225, 33);
+            this.maskedtextBoxPinyon2.Mask = "00000";
+            this.maskedtextBoxPinyon2.Name = "maskedtextBoxPinyon2";
+            this.maskedtextBoxPinyon2.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxPinyon2.TabIndex = 16;
+            this.maskedtextBoxPinyon2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelProfilKayEksMes
             // 
@@ -1651,6 +1689,15 @@
             this.labelEksenlerArasiMesafe.TabIndex = 75;
             this.labelEksenlerArasiMesafe.Text = "0";
             this.labelEksenlerArasiMesafe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // maskedtextBoxDiameter
+            // 
+            this.maskedtextBoxDiameter.Location = new System.Drawing.Point(225, 3);
+            this.maskedtextBoxDiameter.Mask = "00000";
+            this.maskedtextBoxDiameter.Name = "maskedtextBoxDiameter";
+            this.maskedtextBoxDiameter.Size = new System.Drawing.Size(45, 25);
+            this.maskedtextBoxDiameter.TabIndex = 15;
+            this.maskedtextBoxDiameter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
             // 
@@ -1702,26 +1749,6 @@
             this.label29.TabIndex = 22;
             this.label29.Text = "Diameter Pitch :";
             // 
-            // textBoxHelis2
-            // 
-            this.textBoxHelis2.Location = new System.Drawing.Point(225, 93);
-            this.textBoxHelis2.Name = "textBoxHelis2";
-            this.textBoxHelis2.Size = new System.Drawing.Size(45, 25);
-            this.textBoxHelis2.TabIndex = 14;
-            this.textBoxHelis2.Text = "0";
-            this.textBoxHelis2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxHelis2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDiameter_KeyPress);
-            // 
-            // textBoxDiameter
-            // 
-            this.textBoxDiameter.Location = new System.Drawing.Point(225, 3);
-            this.textBoxDiameter.Name = "textBoxDiameter";
-            this.textBoxDiameter.Size = new System.Drawing.Size(45, 25);
-            this.textBoxDiameter.TabIndex = 10;
-            this.textBoxDiameter.Text = "0";
-            this.textBoxDiameter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxDiameter.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDiameter_KeyPress);
-            // 
             // label30
             // 
             this.label30.AutoSize = true;
@@ -1741,16 +1768,6 @@
             this.label31.Size = new System.Drawing.Size(83, 20);
             this.label31.TabIndex = 25;
             this.label31.Text = "Diş Sayısı :";
-            // 
-            // textBoxKavrama2
-            // 
-            this.textBoxKavrama2.Location = new System.Drawing.Point(225, 63);
-            this.textBoxKavrama2.Name = "textBoxKavrama2";
-            this.textBoxKavrama2.Size = new System.Drawing.Size(45, 25);
-            this.textBoxKavrama2.TabIndex = 13;
-            this.textBoxKavrama2.Text = "0";
-            this.textBoxKavrama2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxKavrama2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDiameter_KeyPress);
             // 
             // label32
             // 
@@ -1772,26 +1789,6 @@
             this.label33.TabIndex = 33;
             this.label33.Text = "Kavrama Açısı :";
             // 
-            // textBoxPinyon2
-            // 
-            this.textBoxPinyon2.Location = new System.Drawing.Point(225, 33);
-            this.textBoxPinyon2.Name = "textBoxPinyon2";
-            this.textBoxPinyon2.Size = new System.Drawing.Size(45, 25);
-            this.textBoxPinyon2.TabIndex = 11;
-            this.textBoxPinyon2.Text = "0";
-            this.textBoxPinyon2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxPinyon2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDiameter_KeyPress);
-            // 
-            // textBoxCark2
-            // 
-            this.textBoxCark2.Location = new System.Drawing.Point(333, 33);
-            this.textBoxCark2.Name = "textBoxCark2";
-            this.textBoxCark2.Size = new System.Drawing.Size(45, 25);
-            this.textBoxCark2.TabIndex = 12;
-            this.textBoxCark2.Text = "0";
-            this.textBoxCark2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxCark2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDiameter_KeyPress);
-            // 
             // label34
             // 
             this.label34.AutoSize = true;
@@ -1808,7 +1805,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(925, 615);
+            this.ClientSize = new System.Drawing.Size(926, 615);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -1846,7 +1843,6 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Panel ModulDuzVeHeliselDislilerPanel;
         private System.Windows.Forms.Button BtnHesapla1;
         private System.Windows.Forms.Button BtnCikis1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -1903,71 +1899,15 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox textBoxHelis2;
-        private System.Windows.Forms.TextBox textBoxDiameter;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox textBoxKavrama2;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBoxPinyon2;
-        private System.Windows.Forms.TextBox textBoxCark2;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.TextBox textBoxDpProfilKaydırmaPinyon;
-        private System.Windows.Forms.TextBox textBoxDpProfilKaydırmaCark;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.TextBox textBoxHelisYonu;
-        private System.Windows.Forms.TextBox textBoxModHelisYonu;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBoxModProfilKaydırmaPinyon;
-        private System.Windows.Forms.TextBox textBoxModProfilKaydırmaCark;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label labelModProfilKayEksMes;
-        private System.Windows.Forms.Label labelModEksenlerArasiMesafe;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.TextBox textBoxModHelisAcisi;
-        private System.Windows.Forms.TextBox textBoxMod;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.TextBox textBoxModKavramaAcisi;
-        private System.Windows.Forms.Label label68;
-        private System.Windows.Forms.Label label69;
-        private System.Windows.Forms.TextBox textBoxModPinyonDisSayisi;
-        private System.Windows.Forms.TextBox textBoxModCarkDisSayisi;
-        private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.TextBox textBoxModAlinModulu;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label72;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label labelModKontrolMikrCark;
-        private System.Windows.Forms.Label labelModKontrolDisCark;
-        private System.Windows.Forms.Label labelModDisDibiCark;
-        private System.Windows.Forms.Label labelModDisUstuCark;
-        private System.Windows.Forms.Label labelModTaksimatCark;
-        private System.Windows.Forms.Label labelModKontrolMikrPinyon;
-        private System.Windows.Forms.Label labelModKontrolDisPinyon;
-        private System.Windows.Forms.Label labelModDisDibiPinyon;
-        private System.Windows.Forms.Label labelModDisUstuPinyon;
-        private System.Windows.Forms.Label labelModTaksimatPinyon;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label15;
@@ -1990,6 +1930,63 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxMod;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxModCarkDisSayisi;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxModPinyonDisSayisi;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxModKavramaAcisi;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxModHelisAcisi;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxModHelisYonu;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxModAlinModulu;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxModProfilKaydırmaPinyon;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxModProfilKaydırmaCark;
+        private System.Windows.Forms.Panel ModulDuzVeHeliselDislilerPanel;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelModKontrolMikrCark;
+        private System.Windows.Forms.Label labelModKontrolDisCark;
+        private System.Windows.Forms.Label labelModDisDibiCark;
+        private System.Windows.Forms.Label labelModDisUstuCark;
+        private System.Windows.Forms.Label labelModTaksimatCark;
+        private System.Windows.Forms.Label labelModKontrolMikrPinyon;
+        private System.Windows.Forms.Label labelModKontrolDisPinyon;
+        private System.Windows.Forms.Label labelModDisDibiPinyon;
+        private System.Windows.Forms.Label labelModDisUstuPinyon;
+        private System.Windows.Forms.Label labelModTaksimatPinyon;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelModProfilKayEksMes;
+        private System.Windows.Forms.Label labelModEksenlerArasiMesafe;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxDiameter;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxCark2;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxPinyon2;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxKavrama2;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxHelis2;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxHelisYonu;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxDpProfilKaydırmaPinyon;
+        private System.Windows.Forms.MaskedTextBox maskedtextBoxDpProfilKaydırmaCark;
     }
 }
 

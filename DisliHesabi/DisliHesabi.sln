@@ -3,16 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisliHesabi", "DisliHesabi\DisliHesabi.csproj", "{616C0348-A5B2-49BF-B476-AEC2B832AF59}"
 EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "DisliHesabiSetup", "DisliHesabiSetup\DisliHesabiSetup.isproj", "{A5A6382B-FE51-4822-8FA7-E393B5A7A425}"
+	ProjectSection(ProjectDependencies) = postProject
+		{616C0348-A5B2-49BF-B476-AEC2B832AF59} = {616C0348-A5B2-49BF-B476-AEC2B832AF59}
+	EndProjectSection
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Disli Setup", "Disli Setup\Disli Setup.isproj", "{794A7FCD-D885-4665-A65B-27C3E3309DC9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{616C0348-A5B2-49BF-B476-AEC2B832AF59} = {616C0348-A5B2-49BF-B476-AEC2B832AF59}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
 		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
 		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{616C0348-A5B2-49BF-B476-AEC2B832AF59}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.Debug|Any CPU.ActiveCfg = DVD-5
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.Debug|Any CPU.Build.0 = DVD-5
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.DVD-5|Any CPU.Build.0 = DVD-5
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.Release|Any CPU.ActiveCfg = SingleImage
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.Release|Any CPU.Build.0 = SingleImage
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{A5A6382B-FE51-4822-8FA7-E393B5A7A425}.SingleImage|Any CPU.Build.0 = SingleImage
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.Debug|Any CPU.ActiveCfg = DVD-5
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.Debug|Any CPU.Build.0 = DVD-5
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.DVD-5|Any CPU.Build.0 = DVD-5
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.Release|Any CPU.ActiveCfg = SingleImage
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.Release|Any CPU.Build.0 = SingleImage
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{794A7FCD-D885-4665-A65B-27C3E3309DC9}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

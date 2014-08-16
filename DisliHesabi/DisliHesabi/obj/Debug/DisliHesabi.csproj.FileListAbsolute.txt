@@ -7,3 +7,8 @@ D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.csproj.Genera
 D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.exe
 D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.pdb
 D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.csprojResolveAssemblyReference.cache
+D:\git_test\git_test\DisliHesabi\DisliHesabi\bin\Debug\DisliHesabi.exe.manifest
+D:\git_test\git_test\DisliHesabi\DisliHesabi\bin\Debug\DisliHesabi.application
+D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.TrustInfo.xml
+D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.exe.manifest
+D:\git_test\git_test\DisliHesabi\DisliHesabi\obj\Debug\DisliHesabi.application

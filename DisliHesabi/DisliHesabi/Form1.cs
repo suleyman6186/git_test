@@ -23,15 +23,15 @@ namespace DisliHesabi
             try
             {
      
-            double mod = Convert.ToDouble(textBoxMod.Text);                                                     // MOD    
-            double pinyon_dis_sayisi_mod = Convert.ToDouble(textBoxModPinyonDisSayisi.Text);                    // MOD Pinyon Diş Sayısı
-            double cark_dis_sayisi_mod = Convert.ToDouble(textBoxModCarkDisSayisi.Text);                        // MOD Çark Diş Sayısı
-            double kavrama_acisi_mod = Convert.ToDouble(textBoxModKavramaAcisi.Text);                           // MOD Kavrama Açısı  
-            double helis_acisi_mod = Convert.ToDouble(textBoxModHelisAcisi.Text);                               // MOD Helis Açısı
-            double helis_yonu_mod = Convert.ToDouble(textBoxHelisYonu.Text);                                    // MOD Helis Yönü
-            double profil_kay_mik_pinyon_mod = Convert.ToDouble(textBoxModProfilKaydırmaPinyon.Text);           // MOD Profil Kaydırma Miktarı Pinyon
-            double profil_kay_mik_cark_mod = Convert.ToDouble(textBoxModProfilKaydırmaCark.Text);               // MOD Profil Kaydırma Miktarı Çark
-            double alin_modulu_mod = Convert.ToDouble(textBoxModAlinModulu.Text);                               // MOD alın modulu
+            double mod = Convert.ToDouble(maskedtextBoxMod.Text);                                                     // MOD    
+            double pinyon_dis_sayisi_mod = Convert.ToDouble(maskedtextBoxModPinyonDisSayisi.Text);                    // MOD Pinyon Diş Sayısı
+            double cark_dis_sayisi_mod = Convert.ToDouble(maskedtextBoxModCarkDisSayisi.Text);                        // MOD Çark Diş Sayısı
+            double kavrama_acisi_mod = Convert.ToDouble(maskedtextBoxModKavramaAcisi.Text);                           // MOD Kavrama Açısı  
+            double helis_acisi_mod = Convert.ToDouble(maskedtextBoxModHelisAcisi.Text);                               // MOD Helis Açısı
+            double helis_yonu_mod = Convert.ToDouble(maskedtextBoxModHelisYonu.Text);                                    // MOD Helis Yönü
+            double profil_kay_mik_pinyon_mod = Convert.ToDouble(maskedtextBoxModProfilKaydırmaPinyon.Text);           // MOD Profil Kaydırma Miktarı Pinyon
+            double profil_kay_mik_cark_mod = Convert.ToDouble(maskedtextBoxModProfilKaydırmaCark.Text);               // MOD Profil Kaydırma Miktarı Çark
+            double alin_modulu_mod = Convert.ToDouble(maskedtextBoxModAlinModulu.Text);                               // MOD alın modulu
 
             double kavrama_acisi_radyan_mod = kavrama_acisi_mod * System.Math.PI / 180;
             textBoxModKavramaAcisiRadyan.Text = Convert.ToString(kavrama_acisi_radyan_mod);                     // MOD  Kavrama Açısının radyan hesabı yapıldı
@@ -161,14 +161,14 @@ namespace DisliHesabi
             try
             {
 
-            double diameterpitch = Convert.ToDouble(textBoxDiameter.Text);                                                  // Diamater Pitch
-            double pinyon_dis_sayisi = Convert.ToDouble(textBoxPinyon2.Text);                                               // DP Pinyon Diş Sayısı
-            double cark_dis_sayisi = Convert.ToDouble(textBoxCark2.Text);                                                   // DP Çark Diş Sayısı
-            double kavrama_acisi = Convert.ToDouble(textBoxKavrama2.Text);                                                  // DP Kavrama Açısı  
-            double helis_acisi = Convert.ToDouble(textBoxHelis2.Text);                                                      // DP Helis Açısı
-            double helis_yonu = Convert.ToDouble(textBoxHelisYonu.Text);                                                    // DP Helis Yönü
-            double profil_kay_mik_pinyon = Convert.ToDouble(textBoxDpProfilKaydırmaPinyon.Text);                            // DP Profil Kaydırma Miktarı Pinyon
-            double profil_kay_mik_cark = Convert.ToDouble(textBoxDpProfilKaydırmaCark.Text);                                // DP Profil Kaydırma Miktarı Çark         
+                double diameterpitch = Convert.ToDouble(maskedtextBoxDiameter.Text);                                                  // Diamater Pitch
+                double pinyon_dis_sayisi = Convert.ToDouble(maskedtextBoxPinyon2.Text);                                               // DP Pinyon Diş Sayısı
+                double cark_dis_sayisi = Convert.ToDouble(maskedtextBoxCark2.Text);                                                   // DP Çark Diş Sayısı
+                double kavrama_acisi = Convert.ToDouble(maskedtextBoxKavrama2.Text);                                                  // DP Kavrama Açısı  
+                double helis_acisi = Convert.ToDouble(maskedtextBoxHelis2.Text);                                                      // DP Helis Açısı
+                double helis_yonu = Convert.ToDouble(maskedtextBoxHelisYonu.Text);                                                    // DP Helis Yönü
+                double profil_kay_mik_pinyon = Convert.ToDouble(maskedtextBoxDpProfilKaydırmaPinyon.Text);                            // DP Profil Kaydırma Miktarı Pinyon
+                double profil_kay_mik_cark = Convert.ToDouble(maskedtextBoxDpProfilKaydırmaCark.Text);                                // DP Profil Kaydırma Miktarı Çark         
           
             double kavrama_acisi_radyan = kavrama_acisi * System.Math.PI / 180;
             textBoxDpKavramaAcisiRadyan.Text = Convert.ToString(kavrama_acisi_radyan);                                      // DP  Kavrama Açısının radyan hesabı yapıldı
@@ -302,15 +302,15 @@ namespace DisliHesabi
 
         private void BtnTemizle1_Click(object sender, EventArgs e)
         {
-            textBoxMod.Text = "0";
-            textBoxModPinyonDisSayisi.Text = "0";
-            textBoxModCarkDisSayisi.Text = "0";
-            textBoxModKavramaAcisi.Text = "0";
-            textBoxModHelisAcisi.Text = "0";
-            textBoxModHelisYonu.Text = "0";
-            textBoxModProfilKaydırmaPinyon.Text = "0";
-            textBoxModProfilKaydırmaCark.Text = "0";
-            textBoxModAlinModulu.Text = "0";
+            maskedtextBoxMod.Text = "";
+            maskedtextBoxModPinyonDisSayisi.Text = "";
+            maskedtextBoxModCarkDisSayisi.Text = "";
+            maskedtextBoxModKavramaAcisi.Text = "";
+            maskedtextBoxModHelisAcisi.Text = "";
+            maskedtextBoxModHelisYonu.Text = "";
+            maskedtextBoxModProfilKaydırmaPinyon.Text = "";
+            maskedtextBoxModProfilKaydırmaCark.Text = "";
+            maskedtextBoxModAlinModulu.Text = "";
             // Sonuçları Temizleme--Düz Mod
             labelModTaksimatPinyon.Text="0";
             labelModTaksimatCark.Text = "0";
@@ -327,14 +327,14 @@ namespace DisliHesabi
         }
         private void BtnTemizle2_Click(object sender, EventArgs e)
         {
-            textBoxDiameter.Text = "0";
-            textBoxPinyon2.Text = "0";
-            textBoxCark2.Text = "0";
-            textBoxKavrama2.Text = "0";
-            textBoxHelis2.Text = "0";
-            textBoxDpProfilKaydırmaPinyon.Text = "0";
-            textBoxDpProfilKaydırmaCark.Text = "0";
-            textBoxHelisYonu.Text = "0";
+            maskedtextBoxDiameter.Text = "";
+            maskedtextBoxPinyon2.Text = "";
+            maskedtextBoxCark2.Text = "";
+            maskedtextBoxKavrama2.Text = "";
+            maskedtextBoxHelis2.Text = "";
+            maskedtextBoxDpProfilKaydırmaPinyon.Text = "";
+            maskedtextBoxDpProfilKaydırmaCark.Text = "";
+            maskedtextBoxHelisYonu.Text = "";
             //Sonuçları Temizleme-- Dp
             labelTaksimatCark.Text = "0";
             labelDisUstuCark.Text = "0";
@@ -350,19 +350,7 @@ namespace DisliHesabi
             labelKontrolMikrPinyon.Text = "0";         
         }
 
-        private void textBoxDiameter_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            
-            if (char.IsLetter(e.KeyChar))  // harf girilmesi engellendi
-            {
-                e.Handled = true;
-            }
-            else
-            {
-                e.Handled = false;
-            }
-            
-        }
+      
 
         private void BtnExport1_Click(object sender, EventArgs e)
         {
@@ -393,21 +381,21 @@ namespace DisliHesabi
 
 
 
-            ws.Cells[2, 5] =textBoxMod.Text;
-            ws.Cells[3, 4] =textBoxModPinyonDisSayisi.Text;
-            ws.Cells[4, 5] =textBoxModKavramaAcisi.Text;
-            ws.Cells[5, 5] =textBoxModHelisAcisi.Text;
-            ws.Cells[6, 5] =textBoxModHelisYonu.Text;
-            ws.Cells[7, 5] =textBoxModAlinModulu.Text;
-            ws.Cells[8, 4] = textBoxModProfilKaydırmaPinyon.Text;
+            ws.Cells[2, 5] = maskedtextBoxMod.Text;
+            ws.Cells[3, 4] = maskedtextBoxModPinyonDisSayisi.Text;
+            ws.Cells[4, 5] = maskedtextBoxModKavramaAcisi.Text;
+            ws.Cells[5, 5] = maskedtextBoxModHelisAcisi.Text;
+            ws.Cells[6, 5] = maskedtextBoxModHelisYonu.Text;
+            ws.Cells[7, 5] = maskedtextBoxModAlinModulu.Text;
+            ws.Cells[8, 4] = maskedtextBoxModProfilKaydırmaPinyon.Text;
             ws.Cells[9, 4] = labelModTaksimatPinyon.Text;
             ws.Cells[10, 4] = labelModDisUstuPinyon.Text;
             ws.Cells[11, 4] = labelModDisDibiPinyon.Text;
             ws.Cells[12, 4] = labelModKontrolDisPinyon.Text;
             ws.Cells[13, 4] = labelModKontrolMikrPinyon.Text;
 
-            ws.Cells[3, 6] = textBoxModCarkDisSayisi.Text;
-            ws.Cells[8, 6] = textBoxModProfilKaydırmaCark.Text;
+            ws.Cells[3, 6] = maskedtextBoxModCarkDisSayisi.Text;
+            ws.Cells[8, 6] = maskedtextBoxModProfilKaydırmaCark.Text;
             ws.Cells[9, 6] = labelModTaksimatCark.Text;
             ws.Cells[10, 6] = labelModDisUstuCark.Text;
             ws.Cells[11, 6] = labelModDisDibiCark.Text;
@@ -460,20 +448,20 @@ namespace DisliHesabi
 
 
 
-            ws.Cells[2, 5] = textBoxDiameter.Text;
-            ws.Cells[3, 4] = textBoxPinyon2.Text;
-            ws.Cells[4, 5] = textBoxKavrama2.Text;
-            ws.Cells[5, 5] = textBoxHelis2.Text;
-            ws.Cells[6, 5] = textBoxHelisYonu.Text;
-            ws.Cells[7, 4] = textBoxModProfilKaydırmaPinyon.Text;
+            ws.Cells[2, 5] = maskedtextBoxDiameter.Text;
+            ws.Cells[3, 4] = maskedtextBoxPinyon2.Text;
+            ws.Cells[4, 5] = maskedtextBoxKavrama2.Text;
+            ws.Cells[5, 5] = maskedtextBoxHelis2.Text;
+            ws.Cells[6, 5] = maskedtextBoxHelisYonu.Text;
+            ws.Cells[7, 4] = maskedtextBoxDpProfilKaydırmaPinyon.Text;
             ws.Cells[8, 4] = labelTaksimatPinyon.Text;
             ws.Cells[9, 4] = labelDisUstuPinyon.Text;
             ws.Cells[10, 4] = labelDisDibiPinyon.Text;
             ws.Cells[11, 4] = labelKontrolDisPinyon.Text;
             ws.Cells[12, 4] = labelKontrolMikrPinyon.Text;
 
-            ws.Cells[3, 6] = textBoxCark2.Text;
-            ws.Cells[7, 6] = textBoxModProfilKaydırmaCark.Text;
+            ws.Cells[3, 6] = maskedtextBoxCark2.Text;
+            ws.Cells[7, 6] = maskedtextBoxDpProfilKaydırmaCark.Text;
             ws.Cells[8, 6] = labelTaksimatCark.Text;
             ws.Cells[9, 6] = labelDisUstuCark.Text;
             ws.Cells[10, 6] = labelDisDibiCark.Text;
@@ -493,5 +481,7 @@ namespace DisliHesabi
             ws.Cells[14, 7] = " mm";
       
         }
+
+        
     }
 }
